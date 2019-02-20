@@ -276,6 +276,7 @@ footer .nj {
 }
 .summary-text-box h4 u{
   border-bottom: 2px solid #609E09;
+
 }
 .summary-text-box p{
   padding-left: 3%;
@@ -304,6 +305,7 @@ color: #609E09;
   padding-right: 3%;
   font-weight: 600;
 }
+
 u {
   text-decoration: none;
   border-bottom: 5px solid #609E09;
@@ -478,9 +480,7 @@ hr {
 .overview-section{
   margin-top: 10%;
 }
-.summary-section{
-  margin-top: 10%;
-}
+
 .share-icons{
   margin-left: 0px;
   text-align:center;
@@ -498,6 +498,12 @@ hr {
 .text-section {
   margin-left: 0%;
 }
+.text-section h3{
+  line-height: 1.6;
+}
+.summary-text-box h4{
+  line-height: 1.6;
+}
 }
 @media (max-width: 1200px) {
   .contact-info{
@@ -505,9 +511,6 @@ hr {
     text-align:center;
   }
   .overview-section{
-    margin-top: 10%;
-  }
-  .summary-section{
     margin-top: 10%;
   }
   .share-icons{
@@ -543,9 +546,7 @@ hr {
   .overview-section{
     margin-top: 15%;
   }
-  .summary-section{
-    margin-top: 10%;
-  }
+
   .share-icons{
     margin-left: 0px;
     text-align:center
@@ -562,6 +563,12 @@ hr {
   }
   .text-section {
     margin-left: 0%;
+  }
+  .text-section h3{
+    line-height: 1.6;
+  }
+  .summary-text-box h4{
+    line-height: 1.6;
   }
   }
 
