@@ -57,7 +57,16 @@ header.nj {
   z-index: 1;
   margin-bottom: 0px;
 }
-
+#beta-notice{
+  background-color: #e6e6e6;
+  padding-top: 10px;
+  color: #3d3d3d;
+  z-index: 1;
+  border-bottom: 2px solid #ffffff;
+}
+#beta-notice a{
+  color: #609E09;
+}
 
 header.nj #logo img {
   padding: 0;
