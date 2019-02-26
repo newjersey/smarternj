@@ -4970,6 +4970,10 @@ tbody.collapse.show {
   padding: 1.25rem;
 }
 
+.card-body a{
+color: #609E09
+}
+
 .card-title {
   margin-bottom: 0rem;
 }
