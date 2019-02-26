@@ -174,8 +174,8 @@ footer .nj {
 
 /* top banner section*/
 .hero-img {
-  
-  background-image: linear-gradient(rgba(27, 139, 207, 0.6), rgba(27, 139, 207, 0.6)), url("../images/banner.jpg");
+
+  background-image: linear-gradient(rgba(0,46,155,0.6), rgba(0,46,155,0.6)), url("../images/banner.jpg");
   height: 50vh;
   width:100%;
   background-position: center;

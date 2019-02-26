@@ -155,6 +155,13 @@ header.nj .statewide .drop #google_translate_element {
     height:auto;
       display:table;
     }
+    
+    body  .slide-column{
+      width: 100%;
+    }
+    body  .slide-row{
+      width: 100%;
+    }
 
 }
 
@@ -214,6 +221,13 @@ header.nj .statewide .drop #google_translate_element {
     height:auto;
       display:table;
     }
+   body .slide-column{
+      width: 100%;
+    }
+    body  .slide-row{
+      width: 100%;
+    }
+
 
 }
 
@@ -404,9 +418,9 @@ height: 120px;
   font-weight:600;
 }
 .text-box h5{
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-top: 3%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
   font-weight:300;
   color: #3d3d3d;
 }
@@ -648,6 +662,17 @@ margin-top:1.5rem;
 .center-align{
   text-align: center;
 }
+#section-featured{
+  width:100%;
+  background-color: #e6e6e6;
+  padding-top:20px;
+  padding-bottom:20px;
+ 
+}
+#section-featured h2{
+  color: #3d3d3d;
+  font-weight: 200;
+}
 
 #section-about{
   width:100%;
@@ -689,3 +714,87 @@ margin-top:1.5rem;
 a.btn-green:hover{
   color:#609E09;
 }
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+
+}
+
+/* Slides */
+.Slides {
+  padding: 80px 40px;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.slide-row{
+  width: 50%;
+  margin-left:auto; 
+  margin-right:auto;
+  text-align: center;
+}
+
+.slide-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.slide-column{
+  width: 50%;
+  float: left;
+}
+
