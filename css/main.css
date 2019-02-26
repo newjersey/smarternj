@@ -724,7 +724,10 @@ a.btn-green:hover{
 
 /* Slides */
 .Slides {
-  padding: 80px 40px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 
@@ -752,7 +755,7 @@ a.btn-green:hover{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.2);
   color: white;
 }
 
@@ -760,7 +763,7 @@ a.btn-green:hover{
 .dot-container {
   text-align: center;
   padding: 20px;
-  background: #f6f6f6;
+  background: #f2f2f2;
 }
 
 /* The dots/bullets/indicators */
@@ -769,7 +772,7 @@ a.btn-green:hover{
   height: 10px;
   width: 10px;
   margin: 0 2px;
-  background-color: #f0f0f0;
+  background-color: #c1c1c1;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
