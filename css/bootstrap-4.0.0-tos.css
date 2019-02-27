@@ -48,7 +48,9 @@
   margin-right: auto;
 
 }
-
+.wrapper{
+  overflow: hidden;
+}
 
 header.nj {
   background-color: #363636;

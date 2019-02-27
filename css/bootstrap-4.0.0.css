@@ -5101,7 +5101,7 @@ tbody.collapse.show {
 }
 
 /* hide back of pane during swap */
-.front, .back,.card-border, .card-border-1, .card-border-2 {
+.front, .back,.card-border, .card-border-1, .card-border-2{
   -webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
   -ms-visibility: hidden;
@@ -5112,10 +5112,9 @@ tbody.collapse.show {
 
 /* front pane, placed above back */
 .front {
-	z-index: 2;
   width:200px;
   height:200px;
-  background:#FFFFFF;
+  background-color:#fefefe;
   border-radius: 50%;
 	/* for firefox 31 */
 	transform: rotateY(0deg);

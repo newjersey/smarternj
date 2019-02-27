@@ -1,4 +1,6 @@
-
+.wrapper{
+  overflow: hidden;
+}
 header.nj {
   background-color: #363636;
   color: #fff;
@@ -12,11 +14,15 @@ header.nj {
   color: #3d3d3d;
   z-index: 1;
   border-bottom: 2px solid #ffffff;
-  line-height: 0;
+  line-height: 1.2;
   font-size: 0.85rem;
 }
 #beta-notice a{
   color: #609E09;
+}
+
+.center-items{
+  display: inline-block;
 }
 
 
@@ -108,6 +114,9 @@ header.nj .statewide .drop #google_translate_element {
   body header.nj .statewide .drop {
     max-width: 100%;
   }
+  #beta-notice{
+    width: 100%;
+  }
   #nj-address {
     text-align: center !important;
   }
@@ -174,6 +183,13 @@ header.nj .statewide .drop #google_translate_element {
     body  .slide-row{
       width: 100%;
     }
+    #card-section {
+      margin-left:auto;
+      margin-right:auto;
+      display:table;
+      height:auto;
+    }
+
 
 }
 
@@ -182,6 +198,9 @@ header.nj .statewide .drop #google_translate_element {
 @media only screen and (max-width: 768px) {
   body header.nj .statewide .drop {
     max-width: 100%;
+  }
+  #beta-notice{
+    width: 100%;
   }
   #nj-address {
     text-align: center !important;
@@ -239,6 +258,13 @@ header.nj .statewide .drop #google_translate_element {
     body  .slide-row{
       width: 100%;
     }
+    #card-section {
+      margin-left:auto;
+      margin-right:auto;
+      display:table;
+      height:auto;
+    }
+
 
 
 }
@@ -485,6 +511,11 @@ height: 120px;
   margin-right:auto;
 
 }
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .back{
   background-color: #FFFFFF;
 
@@ -635,6 +666,12 @@ margin-top:1.5rem;
   margin-left: auto;
   padding-left: auto;
 }
+#card-section .row{
+  margin-left:1.5rem;
+  margin-right:1.5rem;
+  padding-left:1.5rem;
+  padding-right:1.5rem;
+}
 
 .image-portion{
   height:50%;
@@ -688,12 +725,15 @@ margin-top:1.5rem;
   font-weight: 200;
 }
 
+.container-border{
+  border: 6px solid #609E09;
+}
 #section-about{
   width:100%;
   background-color: #e6e6e6;
   padding-top:20px;
   padding-bottom:20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 #section-about h2{
   color: #3d3d3d;
@@ -777,7 +817,7 @@ a.btn-green:hover{
 .dot-container {
   text-align: center;
   padding: 20px;
-  background: #f2f2f2;
+  background: #fcfcfc;
 }
 
 /* The dots/bullets/indicators */
@@ -813,5 +853,6 @@ a.btn-green:hover{
 .slide-column{
   width: 50%;
   float: left;
+  height: 100%;
 }
 
