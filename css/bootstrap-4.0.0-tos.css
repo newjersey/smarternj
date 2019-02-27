@@ -51,7 +51,18 @@
 .wrapper{
   overflow: hidden;
 }
-
+.img-row{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  /*background-color: rgba(31,104,157, 0.5);*/
+  background-color: #c6c6c6;
+}
+.smarternj-logo{
+  width: 110px;
+  height: 55px;
+}
 header.nj {
   background-color: #363636;
   color: #fff;
