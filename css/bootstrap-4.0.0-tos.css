@@ -80,7 +80,10 @@ header.nj {
 #beta-notice a{
   color: #609E09;
 }
+.align-center{
 
+text-align: center;
+}
 
 header.nj #logo img {
   padding: 0;

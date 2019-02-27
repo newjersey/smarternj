@@ -223,7 +223,10 @@ width: 320px;
 height: 150px;
 margin-top: 15px;
 }
-
+.align-center{
+  text-align: center;
+  }
+  
 
 .dates-section{
   position: relative;
