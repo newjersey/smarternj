@@ -177,8 +177,15 @@ header.nj .statewide .drop #google_translate_element {
       display:table;
     }
     
-    body  .slide-column{
+    body  .slide-column-1{
+      padding-top: 0%;
       width: 100%;
+    }
+    body  .slide-column-2{
+      width: 100%;
+    }
+    body .Slides{
+      padding-top: 20px;
     }
     body  .slide-row{
       width: 100%;
@@ -252,11 +259,18 @@ header.nj .statewide .drop #google_translate_element {
     height:auto;
       display:table;
     }
-   body .slide-column{
+    body  .slide-column-1{
+      width: 100%;
+      padding-top:0;
+    }
+    body  .slide-column-2{
       width: 100%;
     }
     body  .slide-row{
       width: 100%;
+    }
+    body .Slides{
+      padding-top: 20px;
     }
     #card-section {
       margin-left:auto;
@@ -269,6 +283,27 @@ header.nj .statewide .drop #google_translate_element {
 
 }
 
+@media only screen and (max-width: 1000px){
+  body  .slide-column-1{
+    padding-top: 0%;
+    width: 100%;
+  }
+  body  .slide-column-2{
+    width: 100%;
+  }
+  body .Slides{
+    padding-top: 20px;
+  }
+  body  .slide-row{
+    width: 100%;
+  }
+  #card-section {
+    margin-left:auto;
+    margin-right:auto;
+    display:table;
+    height:auto;
+  }
+}
 
 @media only screen and (max-width: 1200px) {
   body header.nj .statewide .drop {
@@ -324,6 +359,16 @@ body .column{
   #section-about .row{
     height:auto;
       display:table;
+    }
+    .row{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    #card-section {
+      margin-left:auto;
+      margin-right:auto;
+      display:table;
+      height:auto;
     }
 
 }
@@ -526,7 +571,7 @@ height: 120px;
 }
 .front {
 
- margin-top:150px;
+ margin-top:170px;
 
 }
 .fnt-soln{
@@ -657,6 +702,9 @@ margin-top:1.5rem;
 .button-class{
   padding-top:5%;
 }
+.button-class-slides{
+  padding-top:2%;
+}
 
 #card-section .front{
   margin-left:50px;
@@ -670,12 +718,8 @@ margin-top:1.5rem;
   margin-left: auto;
   padding-left: auto;
 }
-#card-section .row{
-  margin-left:1.5rem;
-  margin-right:1.5rem;
-  padding-left:1.5rem;
-  padding-right:1.5rem;
-}
+
+
 
 .image-portion{
   height:50%;
@@ -772,6 +816,9 @@ margin-top:1.5rem;
 a.btn-green:hover{
   color:#609E09;
 }
+a.btn-brown:hover{
+  color:#A07f45;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -842,7 +889,7 @@ a.btn-green:hover{
 }
 
 .slide-row{
-  width: 50%;
+  width: 90%;
   margin-left:auto; 
   margin-right:auto;
   text-align: center;
@@ -854,8 +901,14 @@ a.btn-green:hover{
   clear: both;
 }
 
-.slide-column{
-  width: 50%;
+.slide-column-1{
+  width: 30%;
+  padding-top: 3%;
+  float: left;
+  height: 100%;
+}
+.slide-column-2{
+  width: 70%;
   float: left;
   height: 100%;
 }
