@@ -364,6 +364,10 @@ body .column{
       margin-left: 0px;
       margin-right: 0px;
     }
+    .nj.row{
+      margin-left: -15px;
+      margin-right: -15px;
+    }
     #card-section {
       margin-left:auto;
       margin-right:auto;
