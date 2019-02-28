@@ -83,6 +83,9 @@ header.nj {
 .align-center{
 text-align: center;
 }
+.list-items{
+  margin-left: 30px;
+}
 
 header.nj #logo img {
   padding: 0;
@@ -147,6 +150,9 @@ header.nj .statewide .drop {
 @media screen and (max-width: 575px) {
   body header.nj .statewide .drop {
     max-width: 100%;
+  }
+  .list-items{
+    margin-left: 00px;
   }
 }
 header.nj .statewide .drop button.drop-close {
@@ -503,6 +509,9 @@ hr {
     margin-left: 0px;
     text-align:center;
   }
+  .list-items{
+    margin-left: 0px;
+  }
   .fin{
     border-left: 0px solid #000000;
   }
@@ -538,6 +547,9 @@ hr {
   .contact-info{
     margin-left: 0px;
     text-align:center;
+  }
+  .list-items{
+    margin-left: 0px;
   }
   .overview-section{
     margin-top: 10%;
