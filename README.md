@@ -4,7 +4,7 @@
 
 ### Office of Innovation + Lab
 
-SmarterNJ was developed by the Office of Innovation + Lab in collaboration with [Your Priorities](https://www.yrpri.org) and colleagues across the State. If you're interested in joining us to improve the way the NJ government delivers services to New Jerseyans, please [reach out](mailto:innovation@tech.nj.gov)! 
+SmarterNJ was developed by the New Jersey Office of Innovation + Lab in collaboration with [Your Priorities](https://www.yrpri.org) and colleagues across the State. If you're interested in joining us to improve the way the NJ government delivers services to New Jerseyans, please [reach out](mailto:innovation@tech.nj.gov)! 
 
 ### Suggestions and feedback
 
