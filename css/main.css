@@ -514,6 +514,7 @@ height: 120px;
   padding-right: 3%;
   padding-top: 3%;
   font-weight:600;
+  line-height: 1.5;
 }
 .text-box h5{
   padding-left: 1%;
@@ -521,11 +522,21 @@ height: 120px;
   padding-top: 1%;
   font-weight:300;
   color: #3d3d3d;
+  line-height: 1.5;
 }
 .text-box p{
   padding-left: 3%;
   padding-bottom: 3%;
   padding-right: 3%;
+  line-height: 1.5;
+}
+
+/*.text-box ul{
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+}*/
+
 }
 .share-icons p{
   color:#1F689D;
