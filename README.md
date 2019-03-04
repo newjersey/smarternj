@@ -13,7 +13,7 @@ If you have suggestions or feedback, you can send them to feedback@smarter.nj.go
 ### License
 
 The State of New Jersey makes the content provided here available to the public and anyone may view, copy or distribute State information found here without obligation to the State, unless otherwise stated on particular material or information to which a restriction on free use may apply. Government-produced materials provided here are licensed under a [Creative Commons 4.0 Attribution License](https://creativecommons.org/licenses/by/4.0/deed.ast).
-Third party libraries, services and materials (including Font Awesome, Google Fonts, Bootstrap, and [Your Priorities](https://github.com/CitizensFoundation/your-priorities-app)) retain their original licenses.  
+Third party libraries, services and materials (including Font Awesome, Google Fonts, Bootstrap, [Third Party Icons](https://github.com/newjersey/smarternj/blob/master/yp/IconAttributions.pdf), and [Your Priorities](https://github.com/CitizensFoundation/your-priorities-app)) retain their original licenses.  
 Visitors agree to grant a non-exclusive, irrevocable, royalty-free license to the rest of the world for their submissions to [Smarter.NJ.gov](http://smarter.nj.gov/).
 SmarterNJ terms are available [here](https://smarter.nj.gov/tos.html).
 
