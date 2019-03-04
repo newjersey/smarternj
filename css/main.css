@@ -639,7 +639,7 @@ margin-top:1.5rem;
 .front {
   width:200px;
   height:200px;
-  background-color:#fefefe;
+
   border-radius: 50%;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
@@ -658,12 +658,19 @@ margin-top:1.5rem;
 }
 .back-border-1{
   border: 1px solid #A07f45;
+  background-color: #f5f0e8;
+  background-image: url("../images/intersecting-circles-brown.svg");
+  
 }
 .back-border-2{
   border: 1px solid #609E09;
+  background-color:#f4f9ee;
+  background-image: url("../images/intersecting-circles-green.svg");
 }
 .back-border-3{
   border: 1px solid #1B8BCF;
+  background-image: url("../images/intersecting-circles-blue.svg");
+  background-color: #eef9ff;
 }
 .card-border{
   width:300px;
@@ -671,7 +678,8 @@ margin-top:1.5rem;
   padding-top: 10px;
   border: 1px solid #609E09;
   border-radius: 15px;
-  background-color:#fefefe;
+  background-color:#f4f9ee;
+  background-image: url("../images/intersecting-circles-green.svg");
 }
 .card-border-1{
   width:300px;
@@ -679,16 +687,18 @@ margin-top:1.5rem;
   border: 1px solid #A07f45;
   padding-top: 10px;
   border-radius: 15px;
-  background-color: #fefefe;
+  background-color: #f5f0e8;
+  background-image: url("../images/intersecting-circles-brown.svg");
 }
 .card-border-2{
   width:300px;
   height:400px;
   border: 1px solid #1B8BCF;
   padding-top: 10px;
-
+  background-image: url("../images/intersecting-circles-blue.svg");
+  background-color: #eef9ff;
   border-radius: 15px;
-  background-color: #fefefe;
+ 
 }
 .info-bt-1{
   display: inline-block;
@@ -738,7 +748,6 @@ margin-top:1.5rem;
 .image-portion{
   height:50%;
   padding-top: 25%;
-
 }
 
 .soln{
