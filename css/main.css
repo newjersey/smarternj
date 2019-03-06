@@ -597,7 +597,7 @@ height: 120px;
   clear: both;
 }
 .back{
-  background-color: #fefefe;;
+  background-color: #fefefe;
 
 }
 .front {
@@ -635,7 +635,7 @@ margin-top:1.5rem;
 
 
 /* hide back of pane during swap */
-.front, .back,.card-border, .card-border-1, .card-border-2, .pblm, .soln, .eval{
+.front, .back, .card-border, .card-border-1, .card-border-2, .pblm, .soln, .eval{
   -webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
   -ms-visibility: hidden;
@@ -643,12 +643,29 @@ margin-top:1.5rem;
 	top: 0;
 	left: 0;
 }
+.back-border-pblm{
+  -webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+  -ms-visibility: hidden;
+	position: absolute;
+	top: 0;
+  left: 0;
+  width: 100%;
+}
 
+.back-border-soln, .back-border-eval{
+  -webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+  -ms-visibility: hidden;
+	position: absolute;
+	top: 0;
+  left: 0;
+  width: 100%;
+}
 /* front pane, placed above back */
 .front {
   width:200px;
   height:200px;
-
   border-radius: 50%;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
@@ -665,23 +682,19 @@ margin-top:1.5rem;
   -ms-transform: rotateY(180deg);
   border-radius: 0px;
 }
-.back-border-1{
-  background: linear-gradient(rgba(0,46,155,0.9),rgba(0,0,0,0.9)), url("../images/banner.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #ffffff;
-
-}
-.back-border-2{
-  background: linear-gradient(rgba(44,73,4,0.6),rgba(0,0,0,0.6)), url("../images/edu.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+.back-border-soln{
+  height: 100%;
+  background: #2A4F89;
   color: #ffffff;
 }
-.back-border-3{
-  background: linear-gradient(rgba(147,70,60,0.6),rgba(0,0,0,0.6)), url("../images/eval.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+.back-border-pblm{
+  height: 100%;
+  background: #2D4A04;
+  color: #ffffff;
+}
+.back-border-eval{
+  height: 100%;
+  background: #9D4D30;
   color: #ffffff;
 }
 .card-border{
@@ -690,37 +703,52 @@ margin-top:1.5rem;
   box-shadow: 5px 0 5px 0 #aaaaaa;
   border-radius: 0;
 }
-.col-card{
+.col-card-soln{
   height: 100%;
+  background:#2A4F89;
+}
+.col-card-pblm{
+  height: 100%;
+  background: #2D4A04;
+}
+
+.col-card-eval{
+  height: 100%;
+  background: #9D4D30;
+}
+.row-image{
+  height: 60%;
 }
 .row-image-soln{
-
   border-radius: 0 0 0 0;
-  height: 60%;
-  background: linear-gradient(rgba(0,46,155,0.6),rgba(0,0,0,0.6)), url("../images/banner.jpg");
-  background-size: cover;
+  background: url("../images/biz.svg");
+  height: 100%;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% 80%;
 }
+
 .row-image-pblm{
-
   border-radius: 0 0 0 0;
-  height: 60%;
-  background: linear-gradient(rgba(44,73,4,0.6),rgba(0,0,0,0.6)), url("../images/edu.jpg");
-  background-size: cover;
+  background: url("../images/edu.svg");
+  height: 100%;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% 80%;
 }
-
 .row-image-eval{
   border-radius: 0 0 0 0;
-  height: 60%;
-  background: linear-gradient(rgba(147,70,60,0.6),rgba(0,0,0,0.6)), url("../images/eval.jpg");
-  background-size: cover;
+  background: url("../images/train.svg");
+  height: 100%;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% 80%;
 }
+
 .row-text-eval{
-  color: #f0f0f0;
+   color: #f0f0f0;
    height: 40%;
-   background-color: #F37748;
+   background-color: #9D4D30;
    border-radius: 0 0 0 0;
  }
  .row-text-eval h5{
@@ -734,7 +762,6 @@ margin-top:1.5rem;
 .row-text-soln{
  color: #f0f0f0;
   height: 40%;
-  background-color: #1282A2;
   border-radius: 0 0 0 0;
 }
 .row-text-soln h5{
@@ -748,11 +775,10 @@ margin-top:1.5rem;
 .row-text-pblm{
   color: #f0f0f0;
    height: 40%;
-   background-color: #609e09;
    border-radius: 0 0 0 0;
  }
  .row-text-pblm h5{
-   font-weight: 200;
+   font-weight: 700;
  }
  
  .row-text-pblm p{
@@ -814,7 +840,7 @@ margin-top:1.5rem;
   margin-left:auto;
   margin-right:auto;
   color:#f6f6f6;
-  top: 30px;
+  top: 235px;
   position: relative;
 }
 .pblm{
@@ -822,7 +848,7 @@ margin-top:1.5rem;
   margin-left:auto;
   margin-right:auto;
   color:#f6f6f6;
-  top: 30px;
+  top:  235px;
   position: relative;
 }
 .eval{
@@ -830,7 +856,7 @@ margin-top:1.5rem;
   margin-left:auto;
   margin-right:auto;
   color:#f6f6f6;
-  top: 30px;
+  top:  235px;
   position: relative;
 }
 .card-img-top{
@@ -907,6 +933,9 @@ a.btn-green:hover{
 }
 a.btn-brown:hover{
   color:#6C562F;
+}
+a.btn-blue:hover{
+  color: #2A4F89;
 }
 
 /* Slideshow container */
