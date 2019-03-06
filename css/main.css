@@ -635,7 +635,7 @@ margin-top:1.5rem;
 
 
 /* hide back of pane during swap */
-.front, .back,.card-border, .card-border-1, .card-border-2{
+.front, .back,.card-border, .card-border-1, .card-border-2, .pblm, .soln, .eval{
   -webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
   -ms-visibility: hidden;
@@ -667,7 +667,6 @@ margin-top:1.5rem;
 }
 .back-border-1{
   background: linear-gradient(rgba(0,46,155,0.9),rgba(0,0,0,0.9)), url("../images/banner.jpg");
-  /*background-image: url("../images/banner.jpg");*/
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
@@ -675,14 +674,12 @@ margin-top:1.5rem;
 }
 .back-border-2{
   background: linear-gradient(rgba(44,73,4,0.6),rgba(0,0,0,0.6)), url("../images/edu.jpg");
-  /*background-image: url("../images/banner.jpg");*/
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
 }
 .back-border-3{
   background: linear-gradient(rgba(147,70,60,0.6),rgba(0,0,0,0.6)), url("../images/eval.jpg");
-  /*background-image: url("../images/banner.jpg");*/
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
