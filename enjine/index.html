@@ -25,11 +25,15 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>Innovation ENJINE</title>
 
     <link href="../css/bootstrap-4.0.0-enjine.css" rel="stylesheet">
   </head>
   <body>
+   
       <div class="wrapper">
           <div class="container-fluid" id="beta-notice">
             <header class="row justify-content-center">
@@ -77,6 +81,7 @@
           </div>
         </header>
       </div>
+
     <div class="hero-img">
       <div class="txt-banner">
 
@@ -510,6 +515,36 @@
                         </div>
                       </div>
                       &nbsp;
+                      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                              <div class="modal-body">
+                                  <iframe id="ytplayer" type="text/html" width="720" height="405"
+                                  src="https://www.youtube.com/embed/M7lc1UVf-VE?loop=1&modestbranding=1"
+                                  frameborder="0" allowfullscreen></iframe>
+                              </div>
+                  
+                            </div>
+                          </div>
+                        </div>
+
+                      <div class="sticky">
+                        <div class= "sticky-row">
+                          <div class="sticky-col-1">
+                              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                 <img class="sticky-image" src="../images/edu.jpg">
+                                </button>
+                            </div>        
+                          <div class="sticky-col-2">
+                            <h5 class="guv-message">Watch Governor Phil Murphy's message to all NJ State Employees about the Innovation ENJINE Challenge! </h5>
+                            </div>
+                            <div class="sticky-col-3">
+                                <p class="closebtn" onclick="this.parentElement.parentElement.parentElement.style.display='none';">&times;</p>
+                              </div>
+                        </div>
+                           
+                          
+                        </div>
   </body>
 
   <footer class="footer nj">
