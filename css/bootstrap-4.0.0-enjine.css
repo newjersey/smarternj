@@ -61,7 +61,13 @@ div.sticky {
 .sticky-row{
   height: 100%;
   display: table;
+  word-wrap: break-word;
  width: 100%;
+}
+.sticky-row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 .sticky-image{
   width: 220px;
@@ -197,6 +203,7 @@ header.nj .statewide .drop {
   body header.nj .statewide .drop {
     max-width: 100%;
   }
+
 }
 header.nj .statewide .drop button.drop-close {
   color: #999999;
@@ -245,6 +252,7 @@ footer .nj {
   background-color: #333;
   color: #fff;
 }
+
 
 /* top banner section*/
 .hero-img {
@@ -522,6 +530,22 @@ hr {
 }
 
 @media (max-width: 768px) {
+  div.sticky{
+    height: 40vh;
+  }
+
+  .sticky-col-1{
+    width: 20%;
+   
+  }
+  .sticky-col-2{
+    width: 75%;
+
+  }
+  .sticky-col-3{
+    width: 5%;
+  
+  }
   .column-4 {
     width: 100%;
     border-left: 1px solid #B2B2B2;
@@ -579,6 +603,23 @@ hr {
 }
 }
 @media (max-width: 1200px) {
+
+  div.sticky{
+    height: 20vh;
+  }
+
+  .sticky-col-1{
+    width: 30%;
+   
+  }
+  .sticky-col-2{
+    width: 65%;
+
+  }
+  .sticky-col-3{
+    width: 5%;
+  
+  }
   .contact-info{
     margin-left: 0px;
     text-align:center;
@@ -609,6 +650,22 @@ hr {
   }
 
 @media (max-width: 576px) {
+  div.sticky{
+    height: 40vh;
+  }
+
+  .sticky-col-1{
+    width: 100%;
+   
+  }
+  .sticky-col-2{
+    width: 100%;
+
+  }
+  .sticky-col-3{
+    width: 100%;
+  
+  }
   .column-4 {
     width: 100%;
   }
