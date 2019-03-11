@@ -55,7 +55,7 @@ div.sticky {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 20vh;
+  height: 25vh;
 }
 
 .sticky-row{
@@ -71,6 +71,7 @@ div.sticky {
 }
 .sticky-image{
   width: 220px;
+  padding-bottom: 20px;
 }
 .sticky-image:hover {
   transform: scale(1.1);
@@ -101,16 +102,19 @@ div.sticky {
 .sticky-col-1{
   float: left;
   width: 25%;
+  height: 100%;
 }
 .sticky-col-2{
   float: left;
   width: 65%;
+  height: 100%;
 }
 .sticky-col-3{
   float: left;
   margin-top: 10px;
   padding-right: 15px;
   width: 10%;
+  height: 100%;
 }
 .wrapper{
   overflow: hidden;
@@ -530,22 +534,35 @@ hr {
 }
 
 @media (max-width: 768px) {
-  div.sticky{
-    height: 40vh;
+  body div.sticky{
+    height: 30vh;
   }
 
-  .sticky-col-1{
-    width: 20%;
+  body .sticky-col-1{
+    width: 100%;
+    height: 20%;
    
   }
-  .sticky-col-2{
-    width: 75%;
+  #sticky.btn-primary{
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+  .guv-message{
+    margin-top: 0px;
+  }
+
+  body .sticky-col-2{
+    width: 100%;
+    height: 70%;
 
   }
-  .sticky-col-3{
-    width: 5%;
+  body .sticky-col-3{
+    width: 100%;
+    height: 10%;
   
   }
+}
+@media (max-width: 768px) {
   .column-4 {
     width: 100%;
     border-left: 1px solid #B2B2B2;
@@ -604,15 +621,15 @@ hr {
 }
 @media (max-width: 1200px) {
 
-  div.sticky{
-    height: 20vh;
+ body div.sticky{
+    height: 25vh;
   }
 
-  .sticky-col-1{
+  body .sticky-col-1{
     width: 30%;
    
   }
-  .sticky-col-2{
+  body .sticky-col-2{
     width: 65%;
 
   }
@@ -650,19 +667,29 @@ hr {
   }
 
 @media (max-width: 576px) {
-  div.sticky{
-    height: 40vh;
+  body div.sticky{
+    height: 50vh;
   }
 
-  .sticky-col-1{
+  body .sticky-col-1{
     width: 100%;
    
   }
-  .sticky-col-2{
+  #sticky.btn-primary{
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+  .guv-message{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  body .sticky-col-2{
     width: 100%;
 
   }
-  .sticky-col-3{
+  body .sticky-col-3{
     width: 100%;
   
   }
