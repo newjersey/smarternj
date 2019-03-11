@@ -230,7 +230,13 @@ header.nj .statewide .drop {
   z-index: 10;
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
- #browser-notice.container-fluid{
+ #browser-notice{
+  background-color: #FF0000;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  z-index: 1;
+  font-size: 0.75rem;
   display: show;
  }
 }
