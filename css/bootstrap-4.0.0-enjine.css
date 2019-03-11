@@ -80,6 +80,17 @@ div.sticky {
 -o-transform: scale(1.1); /* Opera */
 
 }
+.ytplayer {
+	height: 0px;
+	padding-top: 25px;
+	padding-bottom: 56.2%;
+	position: relative;
+}
+.ytplayer iframe {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
 
 .closebtn {
  
@@ -6140,6 +6151,8 @@ button.close {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
   outline: 0;
+  height: 100%;
+
 }
 
 .modal-backdrop {
