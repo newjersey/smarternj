@@ -135,7 +135,7 @@ header.nj {
   z-index: 1;
   margin-bottom: 0px;
 }
-#beta-notice{
+browser#beta-notice{
   background-color: #e6e6e6;
   color: #3d3d3d;
   padding-top: 5px;
@@ -145,6 +145,23 @@ header.nj {
 }
 
 #beta-notice a{
+  color: #609E09;
+}
+
+#beta-notice ul{
+  margin-bottom: 0;
+}
+
+#browser-notice{
+  background-color: #FF0000;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  z-index: 1;
+  font-size: 0.75rem;
+}
+
+#browser-notice a{
   color: #609E09;
 }
 
