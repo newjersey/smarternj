@@ -48,6 +48,19 @@
   margin-right: auto;
 
 }
+#browser-notice{
+  background-color: #FF0000;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  z-index: 1;
+  font-size: 0.75rem;
+  display: none;
+}
+
+#browser-notice a{
+  color: #609E09;
+}
 .wrapper{
   overflow: hidden;
 }
