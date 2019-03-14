@@ -53,18 +53,28 @@ header.nj {
    display: block;
   }
  }*/
-
- html[data-useragent*='MSIE 10.0'] #browser-notice{
- 
-    background-color: #FF0000;
-    color: #ffffff;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    z-index: 1;
-    font-size: 0.75rem;
-    display: block;
-   
+ @media all and (-ms-high-contrast:none)
+ {
+ #browser-notice{ /* IE10 */
+  background-color: #FF0000;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  z-index: 1;
+  font-size: 0.75rem;
+  display: block;
  }
+
+ *::-ms-backdrop,  #browser-notice{/* IE11 */
+  background-color: #FF0000;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  z-index: 1;
+  font-size: 0.75rem;
+  display: hide;
+  } 
+}
 header.nj #logo img {
   padding: 0;
   margin: 0 5px 0 0px;
