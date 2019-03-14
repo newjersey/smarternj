@@ -49,17 +49,22 @@
 
 }
 #browser-notice{
-  background-color: #FF7185;
-  color: #ffffff;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  background-color: #FFCACE;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
   z-index: 1;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   display: none;
+  font-weight: 400;
 }
 
+#browser-notice ul{
+  margin-bottom: 0;
+}
 #browser-notice a{
-  color: #609E09;
+  color: #6B0001;
+  font-weight: 600;
 }
 .wrapper{
   overflow: hidden;
