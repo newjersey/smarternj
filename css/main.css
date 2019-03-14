@@ -618,7 +618,7 @@ height: 120px;
 	perspective: 1000px;
 }
 	/* flip the pane when hovered */
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
+	.flip-container:hover .flipper{
     perspective: 1000px;
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
@@ -684,7 +684,8 @@ margin-top:1.5rem;
 /* hide back of pane during swap */
 .front, .back, .card-border, .card-border-1, .card-border-2, .pblm, .soln, .eval{
   -webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
+  backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
 
 	position: absolute;
 	top: 0;
