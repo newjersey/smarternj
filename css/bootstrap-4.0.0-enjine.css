@@ -135,7 +135,7 @@ header.nj {
   z-index: 1;
   margin-bottom: 0px;
 }
-browser#beta-notice{
+#beta-notice{
   background-color: #e6e6e6;
   color: #3d3d3d;
   padding-top: 5px;
