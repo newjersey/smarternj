@@ -72,7 +72,7 @@ header.nj {
   padding-bottom: 5px;
   z-index: 1;
   font-size: 0.75rem;
-  display: hide;
+  display: none;
   } 
 }
 header.nj #logo img {
