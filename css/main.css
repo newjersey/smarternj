@@ -29,8 +29,8 @@ header.nj {
   display: inline-block;
 }
 #browser-notice{
-  background-color: #FF0000;
-  color: #ffffff;
+  background-color: #ea9393;
+  color: #000000;
   padding-top: 5px;
   padding-bottom: 5px;
   z-index: 1;
@@ -152,9 +152,9 @@ header.nj .statewide .drop #google_translate_element {
     text-align: center !important;
   }
 
-  body .state-logo { 
+  body .state-logo {
     opacity: 0.2;
-    filter: alpha(opacity=20); 
+    filter: alpha(opacity=20);
     top: 15%;
   }
   .img-overlay .txt-banner{
@@ -207,7 +207,7 @@ header.nj .statewide .drop #google_translate_element {
     height:auto;
       display:table;
     }
-    
+
     body  .slide-column-1{
       padding-top: 0%;
       width: 100%;
@@ -243,9 +243,9 @@ header.nj .statewide .drop #google_translate_element {
   #nj-address {
     text-align: center !important;
   }
-  body .state-logo { 
+  body .state-logo {
     opacity: 0.2;
-    filter: alpha(opacity=20); 
+    filter: alpha(opacity=20);
   }
   body img#state-logo-white {
     width: 150px;
@@ -344,15 +344,15 @@ header.nj .statewide .drop #google_translate_element {
     text-align: center !important;
   }
 
-  body .state-logo { 
+  body .state-logo {
     opacity: 0.2;
-    filter: alpha(opacity=20); 
+    filter: alpha(opacity=20);
   }
   body img#state-logo-white {
     width: 150px;
     height: 150px;
     }
- 
+
   #social {
     text-align: center;
     margin: auto;
@@ -464,7 +464,7 @@ text-align: center;
 .align-center{
   text-align: center;
   }
-  
+
 
 .hero-txt {
   color: white;
@@ -625,7 +625,7 @@ height: 120px;
 
 }
 .front {
-  
+
  margin-top:170px;
 
 }
@@ -779,7 +779,7 @@ margin-top:1.5rem;
  .row-text-eval h5{
    font-weight: 700;
  }
- 
+
  .row-text-eval p{
    font-weight: 200;
  }
@@ -807,7 +807,7 @@ margin-top:1.5rem;
  .row-text-pblm h5{
    font-weight: 700;
  }
- 
+
  .row-text-pblm p{
    font-weight: 200;
  }
@@ -815,7 +815,7 @@ margin-top:1.5rem;
 .info-bt-1{
   display: inline-block;
   color:#F6F6F6;
-  background-color:#778FB3; 
+  background-color:#778FB3;
 }
 
 .info-bt-2{
@@ -825,7 +825,7 @@ margin-top:1.5rem;
   }
 .info-bt-3{
   display: inline-block;
-  color:#000000;  
+  color:#000000;
   background-color: #1B8BCF;
 
 }
@@ -908,7 +908,7 @@ margin-top:1.5rem;
   background-color: #e6e6e6;
   padding-top:20px;
   padding-bottom:20px;
- 
+
 }
 #section-featured h2{
   color: #3d3d3d;
@@ -950,7 +950,7 @@ margin-top:1.5rem;
  }
 
 #card-section {
-     
+
       width: 100%;
       background-color: #fefefe;;
     }
@@ -1039,7 +1039,7 @@ a.btn-blue:hover{
 
 .slide-row{
   width: 100%;
-  margin-left:auto; 
+  margin-left:auto;
   margin-right:auto;
   text-align: center;
   color: #FFFFFF;
