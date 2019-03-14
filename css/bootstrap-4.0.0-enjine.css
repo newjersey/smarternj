@@ -579,7 +579,7 @@ hr {
 }
 .row-cust{
   margin-left: 5%;
-  width: 70%;
+  width: 100%;
 }
 /* Clear floats after the columns */
 .row-cust:after {
