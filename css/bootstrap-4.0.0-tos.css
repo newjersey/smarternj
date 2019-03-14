@@ -177,7 +177,7 @@ header.nj .statewide .drop {
   }
  }*/
 /*XS only*/
-_:-ms-lang(x), .#browser-notice{
+html[data-useragent*='MSIE 10.0'] #browser-notice{
  
   background-color: #FF0000;
   color: #ffffff;

@@ -240,7 +240,7 @@ header.nj .statewide .drop {
    display: block;
   }
  }*/
- _:-ms-lang(x), .#browser-notice{
+ html[data-useragent*='MSIE 10.0'] #browser-notice{
  
   background-color: #FF0000;
   color: #ffffff;
