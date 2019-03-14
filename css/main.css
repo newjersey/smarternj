@@ -42,7 +42,7 @@ header.nj {
   color: #609E09;
 }
 
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/*@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   #browser-notice{
    background-color: #FF0000;
    color: #ffffff;
@@ -52,8 +52,19 @@ header.nj {
    font-size: 0.75rem;
    display: block;
   }
- }
+ }*/
 
+ _:-ms-lang(x), .#browser-notice{
+ 
+    background-color: #FF0000;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 1;
+    font-size: 0.75rem;
+    display: block;
+   
+ }
 header.nj #logo img {
   padding: 0;
   margin: 0 5px 0 0px;
@@ -729,7 +740,7 @@ margin-top:1.5rem;
 }
 .col-card-soln{
   height: 100%;
-  background:#2A4F89;
+  background:#ED552C;
 }
 .col-card-pblm{
   height: 100%;

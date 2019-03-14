@@ -240,6 +240,17 @@ header.nj .statewide .drop {
    display: block;
   }
  }*/
+ _:-ms-lang(x), .#browser-notice{
+ 
+  background-color: #FF0000;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  z-index: 1;
+  font-size: 0.75rem;
+  display: block;
+ 
+}
 /*XS only*/
 @media screen and (max-width: 575px) {
   body header.nj .statewide .drop {
