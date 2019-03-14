@@ -685,7 +685,7 @@ margin-top:1.5rem;
 .front, .back, .card-border, .card-border-1, .card-border-2, .pblm, .soln, .eval{
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
+  
 
 	position: absolute;
 	top: 0;
@@ -694,7 +694,7 @@ margin-top:1.5rem;
 .back-border-pblm{
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
+  
   
 	position: absolute;
 	top: 0;
@@ -705,7 +705,7 @@ margin-top:1.5rem;
 .back-border-soln, .back-border-eval{
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
+  
   
 	position: absolute;
 	top: 0;
