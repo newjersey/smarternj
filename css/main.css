@@ -620,9 +620,10 @@ height: 120px;
 	/* flip the pane when hovered */
 	.flip-container:hover .flipper{
     perspective: 1000px;
-    transform: rotateY(180deg);
+  
     -webkit-transform: rotateY(180deg);
    -ms-transform: rotateY(180deg);
+   transform: rotateY(180deg);
 	}
 
 
@@ -670,12 +671,14 @@ margin-right:1.5rem;
 margin-top:1.5rem;
 }
 .flipper {
-	transition: 1s;
+
    -webkit-transition: 1s;
    -ms-transition: 1s;
-	transform-style: preserve-3d;
+   transition: 1s;
+
   -webkit-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 	position: relative;
   text-align: center;
 }
@@ -718,18 +721,20 @@ margin-top:1.5rem;
   height:200px;
   border-radius: 50%;
 	/* for firefox 31 */
-	transform: rotateY(0deg);
+
   -webkit-transform: rotateY(0deg);
   -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
   text-align: center;
 
 }
 
 /* back, initially hidden pane */
 .back {
-	transform: rotateY(180deg);
+
   -webkit-transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
   border-radius: 0px;
 }
 .back-border-soln{
