@@ -1,0 +1,10 @@
+#browser-notice{
+  background-color: #FFCACE;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 1;
+  font-size: 0.85rem;
+  display: block;
+  font-weight: 400;
+}
