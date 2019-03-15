@@ -167,6 +167,15 @@ header.nj .statewide .drop #google_translate_element {
   margin-right:auto;
 }
 
+.opra-lice{
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.opra-lice a:hover{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
 
 /* footer one */
 
