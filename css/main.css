@@ -196,6 +196,10 @@ header.nj .statewide .drop #google_translate_element {
     margin: auto;
     display: block !important;
   }
+  body .column{
+    width:100%;
+  
+  }
 
   .flex-off-mobile {
     display: block !important;
@@ -227,6 +231,7 @@ header.nj .statewide .drop #google_translate_element {
     #section-consult .row{
       height:auto;
         display:table;
+        width: 100%;
       }
   
 
@@ -279,6 +284,10 @@ header.nj .statewide .drop #google_translate_element {
     margin: auto;
     display: block !important;
   }
+  body .column{
+    width:100%;
+  
+  }
 
   .flex-off-mobile {
     display: block !important;
@@ -307,6 +316,7 @@ header.nj .statewide .drop #google_translate_element {
     #section-consult .row{
       height:auto;
         display:table;
+        width: 100%;
       }
     body  .slide-column-1{
       width: 100%;
@@ -370,11 +380,15 @@ header.nj .statewide .drop #google_translate_element {
     width: 150px;
     height: 150px;
     }
-
+   
   #social {
     text-align: center;
     margin: auto;
     display: block !important;
+  }
+  body .column{
+    width:100%;
+  
   }
 
   .flex-off-mobile {
