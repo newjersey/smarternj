@@ -66,6 +66,30 @@
   color: #6B0001;
   font-weight: 600;
 }
+@media all and (-ms-high-contrast:none)
+{
+#browser-notice{ /* IE10 */
+ background-color: #FFCACE;
+ color: #000000;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ z-index: 1;
+ font-size: 0.85rem;
+ display: block;
+ font-weight: 400;
+}
+
+*::-ms-backdrop,  #browser-notice{/* IE11 */
+ background-color: #FFCACE;
+ color: #000000;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ z-index: 1;
+ font-size: 0.85rem;
+ display: none;
+ font-weight: 400;
+ } 
+}
 .wrapper{
   overflow: hidden;
 }
@@ -191,30 +215,6 @@ header.nj .statewide .drop {
   }
  }*/
 
- @media all and (-ms-high-contrast:none)
- {
- #browser-notice{ /* IE10 */
-  background-color: #FFCACE;
-  color: #000000;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  z-index: 1;
-  font-size: 0.85rem;
-  display: block;
-  font-weight: 400;
- }
-
- *::-ms-backdrop,  #browser-notice {/* IE11 */
-  background-color: #FFCACE;
-  color: #000000;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  z-index: 1;
-  font-size: 0.85rem;
-  display: none;
-  font-weight: 400;
-  } 
-}
 /*XS only*/
 
 @media screen and (max-width: 575px) {

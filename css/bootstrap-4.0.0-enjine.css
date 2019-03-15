@@ -171,6 +171,30 @@ header.nj {
   font-weight: 600;
 }
 
+@media all and (-ms-high-contrast:none)
+{
+#browser-notice{ /* IE10 */
+ background-color: #FFCACE;
+ color: #000000;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ z-index: 1;
+ font-size: 0.85rem;
+ display: block;
+ font-weight: 400;
+}
+
+*::-ms-backdrop,  #browser-notice{/* IE11 */
+ background-color: #FFCACE;
+ color: #000000;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ z-index: 1;
+ font-size: 0.85rem;
+ display: none;
+ font-weight: 400;
+ } 
+}
 #beta-notice ul{
   margin-bottom: 0;
 }
@@ -234,41 +258,8 @@ header.nj .statewide .drop {
   display: none;
   z-index: 10;
 }
-/*@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  #browser-notice{
-   background-color: #FF0000;
-   color: #ffffff;
-   padding-top: 5px;
-   padding-bottom: 5px;
-   z-index: 1;
-   font-size: 0.75rem;
-   display: block;
-  }
- }*/
- @media all and (-ms-high-contrast:none)
- {
- #browser-notice{ /* IE10 */
-  background-color: #FFCACE;
-  color: #000000;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  z-index: 1;
-  font-size: 0.85rem;
-  display: block;
-  font-weight: 400;
- }
 
- *::-ms-backdrop,  #browser-notice{/* IE11 */
-  background-color: #FFCACE;
-  color: #000000;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  z-index: 1;
-  font-size: 0.85rem;
-  display: none;
-  font-weight: 400;
-  } 
-}
+
 /*XS only*/
 @media screen and (max-width: 575px) {
   body header.nj .statewide .drop {

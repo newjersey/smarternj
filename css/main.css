@@ -47,17 +47,6 @@ header.nj {
   font-weight: 600;
 }
 
-/*@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  #browser-notice{
-   background-color: #FF0000;
-   color: #ffffff;
-   padding-top: 5px;
-   padding-bottom: 5px;
-   z-index: 1;
-   font-size: 0.75rem;
-   display: block;
-  }
- }*/
  @media all and (-ms-high-contrast:none)
  {
  #browser-notice{ /* IE10 */
