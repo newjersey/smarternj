@@ -96,6 +96,15 @@ header.nj {
   z-index: 1;
   font-size: 0.75rem;
 }
+.opra-lice{
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.opra-lice a:hover{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
 
 #beta-notice a{
   color: #609E09;
