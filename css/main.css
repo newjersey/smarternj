@@ -161,8 +161,213 @@ header.nj .statewide .drop #google_translate_element {
   max-height: 2.125rem;
 }
 
+.list-section{
+  width: 80%;
+  margin-left: 15%;
+  margin-right:auto;
+}
+
 
 /* footer one */
+
+
+@media only screen and (max-width: 1000px){
+  body  .slide-column-1{
+    padding-top: 0%;
+    width: 100%;
+  }
+  body  .slide-column-2{
+    width: 100%;
+  }
+  body .Slides{
+    padding-top: 20px;
+  }
+  body  .slide-row{
+    width: 100%;
+  }
+  #card-section {
+    margin-left:auto;
+    margin-right:auto;
+    display:table;
+    height:auto;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  body header.nj .statewide .drop {
+    max-width: 100%;
+  }
+  #nj-address {
+    text-align: center !important;
+  }
+
+  .img-shade .state-logo {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+   top: 48%;
+   left: 5%;
+    width: 100%;
+  }
+  body img#state-logo-white {
+    width: 60px;
+    height: 60px;
+   
+    }
+   
+  #social {
+    text-align: center;
+    margin: auto;
+    display: block !important;
+  }
+  body .column{
+    width:100%;
+  
+  }
+ 
+  body .list-section h5{
+    text-align: left;
+  }
+  .flex-off-mobile {
+    display: block !important;
+  }
+  .overview-section{
+    margin-top: 10%;
+  }
+  .share-icons{
+    margin-left: 0px;
+    text-align:center;
+  }
+  .contact-info{
+    margin-left: 0px;
+    text-align:center;
+  }
+  body .text-box{
+      margin-left: 0%;
+      padding-left:0%;
+      padding-right: 0%;
+  }
+  body .text-box h5{
+    text-align:center;
+  }
+
+
+  #section-about .row{
+    height:auto;
+      display:table;
+    }
+    #section-consult .row{
+      height:auto;
+        display:table;
+      }
+    .row{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .nj.row{
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    #card-section {
+      margin-left:auto;
+      margin-right:auto;
+      display:table;
+      height:auto;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  body header.nj .statewide .drop {
+    max-width: 100%;
+  }
+  #beta-notice{
+    width: 100%;
+  }
+  #nj-address {
+    text-align: center !important;
+  }
+  .img-shade .state-logo {
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+    text-align:center;
+    top: 20%;
+  }
+  body img#state-logo-white {
+    width: 150px;
+    height: 150px;
+    text-align:center;
+    }
+
+  #social {
+    text-align: center;
+    margin: auto;
+    display: block !important;
+  }
+  body .column{
+    width:100%;
+  
+  }
+
+  .flex-off-mobile {
+    display: block !important;
+  }
+  .overview-section{
+    margin-top: 10%;
+  }
+  .share-icons{
+    margin-left: 0px;
+    text-align:center;
+  }
+  .contact-info{
+    margin-left: 0px;
+    text-align:center;
+  }
+  body .text-box{
+    margin-left: 0%;
+    padding-left:0%;
+    padding-right: 0%;
+}
+body .text-box h5{
+  text-align:center;
+}
+
+ body .list-section h5{
+   text-align: left;
+ }
+ 
+  #section-about .row{
+    height:auto;
+      display:table;
+    }
+    #section-consult .row{
+      height:auto;
+        display:table;
+        width: 100%;
+      }
+    body  .slide-column-1{
+      width: 100%;
+      padding-top:0;
+    }
+    body  .slide-column-2{
+      width: 100%;
+    }
+    body  .slide-row{
+      width: 100%;
+    }
+    body .Slides{
+      padding-top: 20px;
+    }
+    #card-section {
+      margin-left:auto;
+      margin-right:auto;
+      display:table;
+      height:auto;
+    }
+
+}
+
+
 
 @media only screen and (max-width: 575px) {
   body header.nj .statewide .drop {
@@ -178,18 +383,21 @@ header.nj .statewide .drop #google_translate_element {
     text-align: center !important;
   }
 
-  body .state-logo {
+  .img-shade .state-logo {
     opacity: 0.2;
     filter: alpha(opacity=20);
-    top: 15%;
+    width: 100%;
+    top: 12%;
+    
   }
   .img-overlay .txt-banner{
     left: 1%;
     right: 1%;
   }
   .hero-img img#state-logo-white {
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
+    text-align:left;
     }
   #social {
     text-align: center;
@@ -199,6 +407,9 @@ header.nj .statewide .drop #google_translate_element {
   body .column{
     width:100%;
   
+  }
+  body .list-section h5{
+    text-align: left;
   }
 
   .flex-off-mobile {
@@ -215,9 +426,14 @@ header.nj .statewide .drop #google_translate_element {
     margin-left: 0px;
     text-align:center;
   }
-  .text-box{
-    text-align:center;
-  }
+  body .text-box{
+    margin-left: 0%;
+    padding-left:0%;
+    padding-right: 0%;
+}
+body .text-box h5{
+  text-align:center;
+}
 
   .card-img-top{
     width:50px;
@@ -257,184 +473,6 @@ header.nj .statewide .drop #google_translate_element {
 
 
 }
-
-
-
-@media only screen and (max-width: 768px) {
-  body header.nj .statewide .drop {
-    max-width: 100%;
-  }
-  #beta-notice{
-    width: 100%;
-  }
-  #nj-address {
-    text-align: center !important;
-  }
-  body .state-logo {
-    opacity: 0.2;
-    filter: alpha(opacity=20);
-  }
-  body img#state-logo-white {
-    width: 150px;
-    height: 150px;
-    }
-
-  #social {
-    text-align: center;
-    margin: auto;
-    display: block !important;
-  }
-  body .column{
-    width:100%;
-  
-  }
-
-  .flex-off-mobile {
-    display: block !important;
-  }
-  .overview-section{
-    margin-top: 10%;
-  }
-  .share-icons{
-    margin-left: 0px;
-    text-align:center;
-  }
-  .contact-info{
-    margin-left: 0px;
-    text-align:center;
-  }
-  .text-box{
-    text-align:center;
-  }
-
- 
- 
-  #section-about .row{
-    height:auto;
-      display:table;
-    }
-    #section-consult .row{
-      height:auto;
-        display:table;
-        width: 100%;
-      }
-    body  .slide-column-1{
-      width: 100%;
-      padding-top:0;
-    }
-    body  .slide-column-2{
-      width: 100%;
-    }
-    body  .slide-row{
-      width: 100%;
-    }
-    body .Slides{
-      padding-top: 20px;
-    }
-    #card-section {
-      margin-left:auto;
-      margin-right:auto;
-      display:table;
-      height:auto;
-    }
-
-
-
-}
-
-@media only screen and (max-width: 1000px){
-  body  .slide-column-1{
-    padding-top: 0%;
-    width: 100%;
-  }
-  body  .slide-column-2{
-    width: 100%;
-  }
-  body .Slides{
-    padding-top: 20px;
-  }
-  body  .slide-row{
-    width: 100%;
-  }
-  #card-section {
-    margin-left:auto;
-    margin-right:auto;
-    display:table;
-    height:auto;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  body header.nj .statewide .drop {
-    max-width: 100%;
-  }
-  #nj-address {
-    text-align: center !important;
-  }
-
-  body .state-logo {
-    opacity: 0.2;
-    filter: alpha(opacity=20);
-  }
-  body img#state-logo-white {
-    width: 150px;
-    height: 150px;
-    }
-   
-  #social {
-    text-align: center;
-    margin: auto;
-    display: block !important;
-  }
-  body .column{
-    width:100%;
-  
-  }
-
-  .flex-off-mobile {
-    display: block !important;
-  }
-  .overview-section{
-    margin-top: 10%;
-  }
-  .share-icons{
-    margin-left: 0px;
-    text-align:center;
-  }
-  .contact-info{
-    margin-left: 0px;
-    text-align:center;
-  }
-  .text-box{
-    text-align:center;
-  }
-
-
-  #section-about .row{
-    height:auto;
-      display:table;
-    }
-    #section-consult .row{
-      height:auto;
-        display:table;
-      }
-    .row{
-      margin-left: 0px;
-      margin-right: 0px;
-    }
-    .nj.row{
-      margin-left: -15px;
-      margin-right: -15px;
-    }
-    #card-section {
-      margin-left:auto;
-      margin-right:auto;
-      display:table;
-      height:auto;
-    }
-
-}
-
 
 /*FOOTER css straight from https://nj.gov/*/
 footer.footer {
@@ -477,7 +515,7 @@ text-align: center;
   background-image: url("../images/hero-img.jpeg");
   background-color: rgba(0,46,155,0.7);
   background-blend-mode: multiply;
-  height: 45vh;
+  height: 40vh;
   width:100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -496,24 +534,23 @@ text-align: center;
 .hero-txt {
   color: white;
   vertical-align: middle;
-  text-align: center;
+  
 }
 .hero-txt h1{
-  font-weight:300;
+  font-weight:700;
   font-size: 3.5rem;
   margin-bottom: 0rem;
 }
 
 .hero-txt h5{
-  font-weight:300;
+  font-weight:400;
   margin-bottom: 0rem;
 }
 .txt-banner{
   position: absolute;
-  bottom: 30%;
-  left: 20%;
-  right: 20%;
-  text-align: center;
+  bottom: 25%;
+  left: 15%;
+
 
 }
 .img-overlay{
@@ -533,27 +570,28 @@ text-align: center;
 color: #A07f45
 }
 .text-pblm{
-  color:#609e09;
+  color:#9F3518;
 }
 .text-soln{
-  color:#1282A2;
+  color:#388D9D;
 }
 .text-eval{
-  color:#F37748;
+  color:#0B862E;
 }
 .state-logo{
   display: table;
   position: absolute;
-  text-align: center;
-  opacity: 0.2;
-  filter: alpha(opacity=20); /* For IE8 and earlier */
-  top: 20%;
-  width:100%;
+
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+  top: 47%;
+  left: 8%;
+  
 }
 
 img#state-logo-white{
-width: 120px;
-height: 120px;
+width: 80px;
+height: 80px;
 }
 
 .overview-section{
@@ -562,11 +600,11 @@ height: 120px;
 
 .text-box {
   width: 90%;
-  margin-left: 5%;
+  margin-left: 12%;
   padding-top:2%;
   padding-left:2%;
-  padding-right:2%;
-  padding-bottom:2%;
+  padding-right:15%;
+  padding-bottom:1%;
 }
 
 .text-box h3{
@@ -580,9 +618,10 @@ height: 120px;
   padding-left: 1%;
   padding-right: 1%;
   padding-top: 1%;
-  font-weight:300;
-  color: #3d3d3d;
+  font-weight:400;
+  color: #001546;
   line-height: 1.5;
+  text-align: left;
 }
 .text-box p{
   padding-left: 3%;
@@ -595,8 +634,28 @@ height: 120px;
   display: table;
   margin-right: auto;
   margin-left: auto;
+}
+.v-align{
+  display: table;
+  height: 100%;
+}
 
-
+.list-text{
+  display: table-cell;
+  vertical-align: middle;
+}
+.list-section  h5{
+  padding-top: 5%;
+  font-weight:400;
+  color: #001546;
+  line-height: 1.5;
+  text-align: right;
+}
+.list-section  li{
+  font-size: 1.2rem;
+  font-weight:400;
+  line-height: 2;
+  text-align: left;
 }
 .share-icons p{
   color:#1F689D;
@@ -650,7 +709,7 @@ margin-top:1.5rem;
 
 
 #card-section .row{
-padding-top: 20px;
+padding-top: 40px;
 padding-bottom: 20px;
 width: 80%;
 margin-left: auto;
@@ -926,13 +985,18 @@ clear: both;
 
     #section-consult{
       width:100%;
-      background-color: #e6e6e6;
+      background-color: #E8ECF6;
       padding-top:20px;
-      padding-bottom:20px;
+      padding-bottom:10px;
+      padding-left: 14%;
 
     }
     #section-consult h2{
-      color: #3d3d3d;
+      color: #001546;
+      font-weight: 400;
+    }
+    #section-consult h5{
+      color: #001546;
       font-weight: 200;
     }
     #section-consult .row{
