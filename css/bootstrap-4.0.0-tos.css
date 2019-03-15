@@ -211,7 +211,7 @@ header.nj .statewide .drop {
   padding-bottom: 10px;
   z-index: 1;
   font-size: 0.85rem;
-  display: block;
+  display: none;
   font-weight: 400;
   } 
 }
