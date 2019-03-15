@@ -815,7 +815,7 @@ clear: both;
 .row-image-soln{
   border-radius: 0 0 0 0;
   background: url("../images/biz.svg");
-  background-color: #ED552C;
+ background-color: #00C2E6;
   background-blend-mode: multiply;
   height: 140px;
   background-repeat: no-repeat;
@@ -826,7 +826,7 @@ clear: both;
 .row-image-pblm{
   border-radius: 0 0 0 0;
   background: url("../images/edu.svg");
-  background-color: #00C2E6;
+  background-color: #ED552C;
   background-blend-mode: multiply;
   height: 140px;
   background-repeat: no-repeat;
@@ -860,8 +860,8 @@ clear: both;
  }
 
 .row-text-soln{
- color: #4E1708;
- background-color: #FCE1DA;
+ color: #1A5560;
+ background-color: #CAE1E5;
   height: 200px;
   border-radius: 0 0 0 0;
   padding-top: 1%;
@@ -875,8 +875,8 @@ clear: both;
 }
 
 .row-text-pblm{
-  color: #1A5560;
-  background-color: #CAE1E5;
+  color: #4E1708;
+  background-color: #FCE1DA;
   height: 200px;
    border-radius: 0 0 0 0;
    padding-top: 1%;
@@ -891,8 +891,8 @@ clear: both;
 
 .info-bt-1{
   display: inline-block;
-  color:#4E1708;
-  background-color:#F8B6A5;
+  color:#1A5560;
+  background-color:#81D2E2;
 }
 
 .info-bt-2{
@@ -903,7 +903,7 @@ clear: both;
 .info-bt-3{
   display: inline-block;
   color:#000000;
-  background-color: #1B8BCF;
+  background-color: #F8B6A5;
 
 }
 .btn-md{
@@ -941,7 +941,7 @@ clear: both;
 .soln{
   margin-left:auto;
   margin-right:auto;
-  color:#621D0B;
+  color:#1A5560;
   top: 10px;
   position: relative;
   font-weight: 600;
@@ -952,7 +952,8 @@ clear: both;
 .pblm{
   margin-left:auto;
   margin-right:auto;
-  color:#1A5560;
+  color:#621D0B;
+ 
   top: 10px;
   position: relative;
   font-weight: 600;
@@ -1064,8 +1065,8 @@ a.btn-brown:hover{
   color:#6C562F;
 }
 a.btn-soln:hover{
-  color: #FCE1DA;
-  background-color: #ED552C;
+  color: #CAE1E5;
+  background-color: #00C2E6;
 }
 
 .btn-soln{
