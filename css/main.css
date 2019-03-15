@@ -213,7 +213,7 @@ header.nj .statewide .drop #google_translate_element {
     height: 60px;
    
     }
-   
+ 
   #social {
     text-align: center;
     margin: auto;
@@ -226,6 +226,17 @@ header.nj .statewide .drop #google_translate_element {
  
   body .list-section h5{
     text-align: left;
+  }
+
+  body .list-section{
+    margin-left:8%;
+    text-align: left;
+    margin-right:0;
+    width: 100%;
+  }
+  .list-section .col-sm-12.col-md-6.col-xl-6{
+    padding-left:0;
+    padding-right:0;
   }
   .flex-off-mobile {
     display: block !important;
@@ -245,9 +256,10 @@ header.nj .statewide .drop #google_translate_element {
       margin-left: 0%;
       padding-left:0%;
       padding-right: 0%;
+      width:100%;
   }
   body .text-box h5{
-    text-align:center;
+    text-align:left;
   }
 
 
@@ -259,10 +271,7 @@ header.nj .statewide .drop #google_translate_element {
       height:auto;
         display:table;
       }
-    .row{
-      margin-left: 0px;
-      margin-right: 0px;
-    }
+  
     .nj.row{
       margin-left: -15px;
       margin-right: -15px;
@@ -329,12 +338,22 @@ header.nj .statewide .drop #google_translate_element {
     padding-right: 0%;
 }
 body .text-box h5{
-  text-align:center;
+  text-align:left;
 }
 
  body .list-section h5{
    text-align: left;
  }
+ body .list-section{
+  margin-left:0;
+  text-align: left;
+  margin-right:0;
+  width: 100%;
+}
+.list-section .col-sm-12.col-md-6.col-xl-6{
+  padding-left:0;
+  padding-right:0;
+}
  
   #section-about .row{
     height:auto;
@@ -408,10 +427,17 @@ body .text-box h5{
     width:100%;
   
   }
-  body .list-section h5{
+  body .list-section{
+    margin-left:0;
     text-align: left;
+    margin-right:0;
+    width: 100%;
   }
 
+  .list-section .col-sm-12.col-md-6.col-xl-6{
+    padding-left:0;
+    padding-right:0;
+  }
   .flex-off-mobile {
     display: block !important;
   }
@@ -432,7 +458,7 @@ body .text-box h5{
     padding-right: 0%;
 }
 body .text-box h5{
-  text-align:center;
+  text-align:left;
 }
 
   .card-img-top{
@@ -448,6 +474,9 @@ body .text-box h5{
       height:auto;
         display:table;
         width: 100%;
+      }
+  body #section-consult{
+        padding-left: 0;
       }
   
 
@@ -469,6 +498,9 @@ body .text-box h5{
       margin-right:auto;
       display:table;
       height:auto;
+    }
+    body #card-section .row{
+      width:100%;
     }
 
 
@@ -649,7 +681,7 @@ height: 80px;
   font-weight:400;
   color: #001546;
   line-height: 1.5;
-  text-align: right;
+  text-align: left;
 }
 .list-section  li{
   font-size: 1.2rem;
@@ -988,7 +1020,7 @@ clear: both;
       background-color: #E8ECF6;
       padding-top:20px;
       padding-bottom:10px;
-      padding-left: 14%;
+      padding-left:0;
 
     }
     #section-consult h2{

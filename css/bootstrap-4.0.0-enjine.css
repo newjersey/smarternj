@@ -601,6 +601,9 @@ hr {
 .column-5 p{
   padding-right: 1rem;
 }
+.column-4 p{
+  padding-right: 1rem;
+}
 .fin{
   border-top: 0px solid #000000;
 }
@@ -693,7 +696,7 @@ hr {
     text-align: center;
   }
   .row-cust{
-   
+   margin-left: 2%;
     width: 100%;
   }
 
