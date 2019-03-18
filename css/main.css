@@ -47,6 +47,11 @@ header.nj {
   font-weight: 600;
 }
 
+.img-shade{
+  text-align:center;
+}
+
+
  @media all and (-ms-high-contrast:none)
  {
  #browser-notice{ /* IE10 */
@@ -60,6 +65,11 @@ header.nj {
   font-weight: 400;
  }
 
+ .img-shade{
+  background-color: rgba(0,46,155,0.5);
+  height:  100%;
+}
+
  *::-ms-backdrop,  #browser-notice{/* IE11 */
   background-color: #FFCACE;
   color: #000000;
@@ -70,6 +80,12 @@ header.nj {
   display: none;
   font-weight: 400;
   } 
+
+  *::-ms-backdrop, .img-shade{
+    background-color: rgba(0,46,155,0.5);
+    height:  100%;
+  }
+
 }
 header.nj #logo img {
   padding: 0;
@@ -201,16 +217,16 @@ header.nj .statewide .drop #google_translate_element {
     text-align: center !important;
   }
 
+
   .img-shade .state-logo {
-    opacity: 0.8;
-    filter: alpha(opacity=80);
-   top: 48%;
-   left: 5%;
-    width: 100%;
+    margin-top: 5%;
+    display: inline-block;
+    opacity: 0.2;
+    filter: alpha(opacity=20); /* For IE8 and earlier */
   }
   body img#state-logo-white {
-    width: 60px;
-    height: 60px;
+    width: 150px;
+    height: 150px;
    
     }
  
@@ -297,10 +313,10 @@ header.nj .statewide .drop #google_translate_element {
     text-align: center !important;
   }
   .img-shade .state-logo {
+    margin-top: 5%;
+    display: inline-block;
     opacity: 0.2;
-    filter: alpha(opacity=20);
-    text-align:center;
-    top: 20%;
+    filter: alpha(opacity=20); /* For IE8 and earlier */
   }
   body img#state-logo-white {
     width: 150px;
@@ -403,15 +419,14 @@ body .text-box h5{
   }
 
   .img-shade .state-logo {
-    opacity: 0.2;
-    filter: alpha(opacity=20);
-    width: 100%;
-    top: 12%;
+    margin-top: 15%;
+  display: inline-block;
+  opacity: 0.2;
+  filter: alpha(opacity=20); /* For IE8 and earlier */
     
   }
   .img-overlay .txt-banner{
-    left: 1%;
-    right: 1%;
+    margin-top: 20%;
   }
   .hero-img img#state-logo-white {
     width: 150px;
@@ -555,9 +570,7 @@ text-align: center;
   position: relative;
 }
 
-.img-shade{
 
-}
 .align-center{
   text-align: center;
   }
@@ -565,7 +578,7 @@ text-align: center;
 
 .hero-txt {
   color: white;
-  vertical-align: middle;
+  display: inline-block;
   
 }
 .hero-txt h1{
@@ -579,11 +592,8 @@ text-align: center;
   margin-bottom: 0rem;
 }
 .txt-banner{
-  position: absolute;
-  bottom: 25%;
-  left: 15%;
-
-
+  margin-top: 8%;
+  text-align:center;
 }
 .img-overlay{
   display: table;
@@ -611,19 +621,15 @@ color: #A07f45
   color:#0B862E;
 }
 .state-logo{
-  display: table;
-  position: absolute;
-
-  opacity: 0.8;
-  filter: alpha(opacity=80); /* For IE8 and earlier */
-  top: 47%;
-  left: 8%;
-  
+  margin-top: 5%;
+  display: inline-block;
+  opacity: 0.2;
+  filter: alpha(opacity=20); /* For IE8 and earlier */
 }
 
 img#state-logo-white{
-width: 80px;
-height: 80px;
+width: 200px;
+height: 200px;
 }
 
 .overview-section{
@@ -711,7 +717,7 @@ height: 80px;
   margin-top: -20px;
 }
 
-.
+
 .back{
   background-color: #fefefe;
 

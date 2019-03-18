@@ -8,3 +8,7 @@
   display: block;
   font-weight: 400;
 }
+.img-shade{
+  background-color: rgba(0,46,155,0.5);
+  height:  100%;
+}
