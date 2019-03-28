@@ -1,0 +1,1184 @@
+.wrapper-hero{
+  overflow: hidden;
+}
+header.nj {
+  background-color: #363636;
+  color: #fff;
+  padding: 4px 0;
+  z-index: 1;
+  margin-bottom: 0px;
+}
+#beta-notice{
+  background-color: #e6e6e6;
+  color: #3d3d3d;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  z-index: 1;
+  font-size: 0.75rem;
+}
+
+#beta-notice a{
+  color: #609E09;
+}
+
+#beta-notice ul{
+  margin-bottom: 0;
+}
+
+.center-items{
+  display: inline-block;
+}
+#browser-notice{
+  background-color: #FFCACE;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 1;
+  font-size: 0.85rem;
+  display: none;
+  font-weight: 400;
+}
+
+#browser-notice ul{
+  margin-bottom: 0;
+}
+#browser-notice a{
+  color: #6B0001;
+  font-weight: 600;
+}
+
+.img-shade{
+  text-align:center;
+}
+
+
+ @media all and (-ms-high-contrast:none)
+ {
+ #browser-notice{ /* IE10 */
+  background-color: #FFCACE;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 1;
+  font-size: 0.85rem;
+  display: block;
+  font-weight: 400;
+ }
+
+ .img-shade{
+  background-color: rgba(0,46,155,0.5);
+  height:  100%;
+}
+
+ *::-ms-backdrop,  #browser-notice{/* IE11 */
+  background-color: #FFCACE;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 1;
+  font-size: 0.85rem;
+  display: none;
+  font-weight: 400;
+  } 
+
+  *::-ms-backdrop, .img-shade{
+    background-color: rgba(0,46,155,0.5);
+    height:  100%;
+  }
+
+}
+header.nj #logo img {
+  padding: 0;
+  margin: 0 5px 0 0px;
+  max-height: 41px;
+  display: inline-block;
+}
+header.nj #logo h1 {
+  font-size: 0.75rem;
+  margin: 0;
+  padding: 0 0 0 0;
+  line-height: 1;
+  width: auto;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+header.nj a {
+  color: #fff;
+}
+
+
+header.nj .gov-bar {
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+header.nj .social {
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+header.nj ul.statewide {
+  margin: 0px;
+}
+header.nj ul.statewide li {
+  border-right: 1px solid #fff;
+  font-size: 14px;
+  display: inline-block;
+  margin: 0;
+  padding: 0 6px;
+}
+header.nj ul.statewide li:last-of-type {
+  border-right: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+header.nj .statewide {
+  position: relative;
+}
+header.nj .statewide .drop {
+  position: absolute;
+  right: 0px;
+  /*top: 35px;*/
+  background: #363636;
+  width: 500px;
+  display: none;
+  z-index: 10;
+}
+/*XS only*/
+
+header.nj .statewide .drop button.drop-close {
+  color: #999999;
+}
+
+header.nj .statewide .drop p.disclaimer {
+  float: left;
+  clear: left;
+  width: 100%;
+  text-align: left;
+}
+
+header.nj .statewide .drop #google_translate_element {
+  float: left;
+  clear: left;
+  width: 100%;
+}
+.goog-te-combo.form-control {
+  max-height: 2.125rem;
+}
+
+.list-section{
+  width: 80%;
+  margin-left: 15%;
+  margin-right:auto;
+}
+
+.opra-lice{
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.opra-lice a:hover{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+
+/* footer one */
+
+
+@media only screen and (max-width: 1000px){
+  body  .slide-column-1{
+    padding-top: 0%;
+    width: 100%;
+  }
+  body  .slide-column-2{
+    width: 100%;
+  }
+  body .Slides{
+    padding-top: 20px;
+  }
+  body  .slide-row{
+    width: 100%;
+  }
+  #card-section {
+    margin-left:auto;
+    margin-right:auto;
+    display:table;
+    height:auto;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  body header.nj .statewide .drop {
+    max-width: 100%;
+  }
+  #nj-address {
+    text-align: center !important;
+  }
+
+
+  .img-shade .state-logo {
+    display: table;
+    position: absolute;
+    text-align: center;
+    opacity: 0.2;
+    filter: alpha(opacity=20); /* For IE8 and earlier */
+  }
+  body img#state-logo-white {
+    width: 150px;
+    height: 150px;
+   
+    }
+ 
+  #social {
+    text-align: center;
+    margin: auto;
+    display: block !important;
+  }
+  body .column{
+    width:100%;
+  
+  }
+ 
+  body .list-section h5{
+    text-align: left;
+  }
+
+  body .list-section{
+    margin-left:8%;
+    text-align: left;
+    margin-right:0;
+    width: 100%;
+  }
+  .list-section .col-sm-12.col-md-6.col-xl-6{
+    padding-left:0;
+    padding-right:0;
+  }
+  .flex-off-mobile {
+    display: block !important;
+  }
+  .overview-section{
+    margin-top: 10%;
+  }
+  .share-icons{
+    margin-left: 0px;
+    text-align:center;
+  }
+  .contact-info{
+    margin-left: 0px;
+    text-align:center;
+  }
+  body .text-box{
+      margin-left: 8%;
+      padding-left:0%;
+      padding-right: 14%;
+      width:100%;
+  }
+  body .text-box h5{
+    text-align:left;
+  }
+
+
+  #section-about .row{
+    height:auto;
+      display:table;
+    }
+    #section-consult .row{
+      height:auto;
+        display:table;
+      }
+  
+    .nj.row{
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+    #card-section {
+      margin-left:auto;
+      margin-right:auto;
+      display:table;
+      height:auto;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  body header.nj .statewide .drop {
+    max-width: 100%;
+  }
+  #beta-notice{
+    width: 100%;
+  }
+  #nj-address {
+    text-align: center !important;
+  }
+  .img-shade .state-logo {
+    display: table;
+    position: absolute;
+    text-align: center;
+    opacity: 0.2;
+    filter: alpha(opacity=20); /* For IE8 and earlier */
+  }
+  body img#state-logo-white {
+    width: 150px;
+    height: 150px;
+    text-align:center;
+    }
+
+  #social {
+    text-align: center;
+    margin: auto;
+    display: block !important;
+  }
+  body .column{
+    width:100%;
+  
+  }
+
+  .flex-off-mobile {
+    display: block !important;
+  }
+  .overview-section{
+    margin-top: 10%;
+  }
+  .share-icons{
+    margin-left: 0px;
+    text-align:center;
+  }
+  .contact-info{
+    margin-left: 0px;
+    text-align:center;
+  }
+  body .text-box{
+    margin-left: 0%;
+    padding-left:0%;
+    padding-right: 0%;
+}
+body .text-box h5{
+  text-align:left;
+}
+
+ body .list-section h5{
+   text-align: left;
+ }
+ body .list-section{
+  margin-left:0;
+  text-align: left;
+  margin-right:0;
+  width: 100%;
+}
+.list-section .col-sm-12.col-md-6.col-xl-6{
+  padding-left:0;
+  padding-right:0;
+}
+ 
+  #section-about .row{
+    height:auto;
+      display:table;
+    }
+    #section-consult .row{
+      height:auto;
+        display:table;
+        width: 100%;
+      }
+    body  .slide-column-1{
+      width: 100%;
+      padding-top:0;
+    }
+    body  .slide-column-2{
+      width: 100%;
+    }
+    body  .slide-row{
+      width: 100%;
+    }
+    body .Slides{
+      padding-top: 20px;
+    }
+    #card-section {
+      margin-left:auto;
+      margin-right:auto;
+      display:table;
+      height:auto;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 575px) {
+  body header.nj .statewide .drop {
+    max-width: 100%;
+  }
+  #beta-notice{
+    width: 100%;
+  }
+  .slide-column-2 h4{
+    line-height: 1.8;
+  }
+  #nj-address {
+    text-align: center !important;
+  }
+
+  .img-shade .state-logo {
+    display: table;
+    position: absolute;
+    text-align: center;
+  opacity: 0.2;
+  filter: alpha(opacity=20); /* For IE8 and earlier */
+    
+  }
+  .img-overlay .txt-banner{
+    margin-top: 20%;
+  }
+  .hero-img img#state-logo-white {
+    width: 150px;
+    height: 150px;
+    text-align:left;
+    }
+  #social {
+    text-align: center;
+    margin: auto;
+    display: block !important;
+  }
+  body .column{
+    width:100%;
+  
+  }
+  body .list-section{
+    margin-left:0;
+    text-align: left;
+    margin-right:0;
+    width: 100%;
+  }
+
+  .list-section .col-sm-12.col-md-6.col-xl-6{
+    padding-left:0;
+    padding-right:0;
+  }
+  .flex-off-mobile {
+    display: block !important;
+  }
+
+  .text-center-mobile {
+    text-align: center !important;
+  }
+  .overview-section{
+    margin-top: 15%;
+  }
+  .share-icons{
+    margin-left: 0px;
+    text-align:center;
+  }
+  body .text-box{
+    margin-left: 0%;
+    padding-left:0%;
+    padding-right: 0%;
+}
+body .text-box h5{
+  text-align:left;
+}
+
+  .card-img-top{
+    width:50px;
+    height:50px;
+  }
+
+  #section-about .row{
+    height:auto;
+      display:table;
+    }
+    #section-consult .row{
+      height:auto;
+        display:table;
+        width: 100%;
+      }
+  body #section-consult{
+        padding-left: 0;
+      }
+  
+
+    body  .slide-column-1{
+      padding-top: 0%;
+      width: 100%;
+    }
+    body  .slide-column-2{
+      width: 100%;
+    }
+    body .Slides{
+      padding-top: 20px;
+    }
+    body  .slide-row{
+      width: 100%;
+    }
+    #card-section {
+      margin-left:auto;
+      margin-right:auto;
+      display:table;
+      height:auto;
+    }
+    body #card-section .row{
+      width:100%;
+    }
+
+
+}
+
+/*FOOTER css straight from https://nj.gov/*/
+footer.footer {
+  background: #0066cc;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 0.875rem;
+  word-wrap: break-word;
+}
+
+.footer a:link,
+.footer a:focus,
+.footer a:visited {
+  text-decoration: none;
+  color: #ffffff !important;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+footer.nj {
+  background: #333;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 0.875rem;
+}
+
+footer .nj {
+  background-color: #333;
+  color: #fff;
+}
+
+.wrap {
+width:100%;
+text-align: center;
+
+}
+
+.hero-img {
+  left:0;
+  background-image: url("../images/hero-img.jpeg");
+  background-color: rgba(0,46,155,0.7);
+  background-blend-mode: multiply;
+  height: 40vh;
+  width:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.align-center{
+  text-align: center;
+  }
+
+
+.hero-txt {
+  color: white;
+  display: inline-block;
+  
+}
+.hero-txt h1{
+  font-weight:700;
+  font-size: 3.5rem;
+  margin-bottom: 0rem;
+}
+
+.hero-txt h5{
+  font-weight:400;
+  margin-bottom: 0rem;
+}
+.txt-banner{
+  position: absolute;
+  bottom: 30%;
+  left: 20%;
+  right: 20%;
+  text-align: center;
+}
+.img-overlay{
+  display: table;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  width:100%;
+  height:100%;
+}
+.text-green {
+  color: #609E09;
+}
+.text-blue{
+  color:#1F689D;
+}
+.text-brown{
+color: #A07f45
+}
+.text-pblm{
+  color:#9F3518;
+}
+.text-soln{
+  color:#388D9D;
+}
+.text-eval{
+  color:#0B862E;
+}
+.state-logo{
+  display: table;
+  position: absolute;
+  text-align: center;
+  width:100%;
+  opacity: 0.2;
+  filter: alpha(opacity=20); /* For IE8 and earlier */
+}
+
+img#state-logo-white{
+width: 200px;
+height: 200px;
+}
+
+.overview-section{
+  margin-top: 0%;
+}
+
+.text-box {
+  width: 90%;
+  margin-left: 12%;
+  padding-top:2%;
+  padding-left:2%;
+  padding-right:15%;
+  padding-bottom:1%;
+}
+
+.text-box h3{
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+  font-weight:600;
+  line-height: 1.5;
+}
+.text-box h5{
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  font-weight:400;
+  color: #001546;
+  line-height: 1.5;
+  text-align: left;
+}
+.text-box p{
+  padding-left: 3%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  line-height: 1.5;
+}
+
+.text-box ul{
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+}
+.v-align{
+  display: table;
+  height: 100%;
+}
+
+.list-text{
+  display: table-cell;
+  vertical-align: middle;
+}
+.list-section  h5{
+  padding-top: 5%;
+  font-weight:400;
+  color: #001546;
+  line-height: 1.5;
+  text-align: left;
+}
+.list-section  li{
+  font-size: 1.2rem;
+  font-weight:400;
+  line-height: 2;
+  text-align: left;
+}
+.share-icons p{
+  color:#1F689D;
+  font-weight: 600;
+  margin-bottom: -10px;
+}
+.fa {
+  padding: 20px 20px 20px 0px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+.contact-info{
+  padding-right:5%;
+  margin-top: -20px;
+}
+
+
+.back{
+  background-color: #fefefe;
+
+}
+.front {
+
+ margin-top:170px;
+
+}
+.fnt-soln{
+ border: 1px solid #A07f45;
+}
+
+.fnt-pblm{
+
+ border: 1px solid #609E09;
+
+}
+.fnt-eval{
+border: 1px solid #1B8BCF;
+}
+.text-back{
+margin-left:1.5rem;
+margin-right:1.5rem;
+margin-top:1.5rem;
+}
+
+
+#card-section .row{
+padding-top: 40px;
+padding-bottom: 20px;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+#card-section{
+  margin: 0 auto;
+}
+.cards-plane{
+width: 80%;
+height: 400px;
+margin-left: auto;
+margin-right: auto;
+display: table;
+content: "";
+clear: both;
+}
+.column{
+  width:33.33%;
+
+}
+.card-container{
+  width: 280px;
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  content: "";
+  clear: both;
+  text-align: center;
+}
+
+
+
+.back-border-soln{
+  height: 100%;
+  background: #2A4F89;
+  color: #ffffff;
+}
+.back-border-pblm{
+  height: 100%;
+  background: #2D4A04;
+  color: #ffffff;
+}
+.back-border-eval{
+  height: 100%;
+  background: #9D4D30;
+  color: #ffffff;
+}
+.card-border{
+  width:300px;
+  height:400px;
+  box-shadow: 5px 0 5px 0 #aaaaaa;
+  border-radius: 0;
+}
+.col-card-soln{
+  height: 100%;
+  background:#2A4F89;
+}
+.col-card-pblm{
+  height: 100%;
+  background: #2D4A04;
+}
+
+.col-card-eval{
+  height: 100%;
+  background: #9D4D30;
+}
+
+.row-image-soln{
+  border-radius: 0 0 0 0;
+  background: url("../images/biz.svg");
+ background-color: #00C2E6;
+  background-blend-mode: multiply;
+  height: 140px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 30% 80%;
+}
+
+.row-image-pblm{
+  border-radius: 0 0 0 0;
+  background: url("../images/edu.svg");
+  background-color: #ED552C;
+  background-blend-mode: multiply;
+  height: 140px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 25% 80%;
+}
+.row-image-eval{
+  border-radius: 0 0 0 0;
+  background: url("../images/train.svg");
+  background-color: #13D048;
+  background-blend-mode: multiply;
+  height: 140px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 30% 80%;
+}
+
+.row-text-eval{
+  color: #0B862E;
+  background-color: #DCEEE1;
+  height: 200px;
+   border-radius: 0 0 0 0;
+   padding-top: 1%;
+ }
+ .row-text-eval h5{
+   font-weight: 700;
+ }
+
+ .row-text-eval p{
+   font-weight: 200;
+ }
+
+.row-text-soln{
+ color: #1A5560;
+ background-color: #CAE1E5;
+  height: 200px;
+  border-radius: 0 0 0 0;
+  padding-top: 1%;
+}
+.row-text-soln h5{
+  font-weight: 700;
+}
+
+.row-text-soln p{
+  font-weight: 200;
+}
+
+.row-text-pblm{
+  color: #4E1708;
+  background-color: #FCE1DA;
+  height: 200px;
+   border-radius: 0 0 0 0;
+   padding-top: 1%;
+ }
+ .row-text-pblm h5{
+   font-weight: 700;
+ }
+
+ .row-text-pblm p{
+   font-weight: 200;
+ }
+
+.info-bt-1{
+  display: inline-block;
+  color:#1A5560;
+  background-color:#81D2E2;
+}
+
+.info-bt-2{
+  display: inline-block;
+  color:#000000;
+  background-color: #609E09;
+  }
+.info-bt-3{
+  display: inline-block;
+  color:#000000;
+  background-color: #F8B6A5;
+
+}
+.btn-md{
+  padding: 0.5rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.button-class{
+  padding-bottom: 5%;
+}
+
+.button-class-slides{
+  padding-top:2%;
+}
+
+#card-section .front{
+  margin-left:50px;
+}
+
+#card-section .row{
+  margin-bottom:auto;
+  margin-top:auto;
+  margin-left: auto;
+  padding-left: auto;
+}
+
+
+
+.image-portion{
+  height:50%;
+  padding-top: 25%;
+}
+
+.soln{
+  margin-left:auto;
+  margin-right:auto;
+  color:#1A5560;
+  top: 10px;
+  position: relative;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+
+.pblm{
+  margin-left:auto;
+  margin-right:auto;
+  color:#621D0B;
+ 
+  top: 10px;
+  position: relative;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.eval{
+
+  margin-left:auto;
+  margin-right:auto;
+  color:#046920;
+  top: 10px;
+  position: relative;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.card-img-top{
+  width:100px;
+  height:100px;
+}
+
+
+.bold {
+  font-weight: 700;
+}
+
+.center-align{
+  text-align: center;
+}
+#section-featured{
+  width:100%;
+  background-color: #e6e6e6;
+  padding-top:20px;
+  padding-bottom:20px;
+
+}
+#section-featured h2{
+  color: #3d3d3d;
+  font-weight: 200;
+}
+
+.container-border{
+  border: 6px solid #609E09;
+}
+#section-about{
+  width:100%;
+  background-color: #e6e6e6;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin-bottom: 40px;
+}
+#section-about h2{
+  color: #3d3d3d;
+  font-weight: 200;
+}
+#section-about .row{
+  height:50vh;
+  }
+#section-about .col-2{
+    margin-top:auto;
+    margin-bottom:auto;
+    }
+
+    #section-consult{
+      width:100%;
+      background-color: #E8ECF6;
+      padding-top:20px;
+      padding-bottom:10px;
+      padding-left:0;
+
+    }
+    #section-consult h2{
+      color: #001546;
+      font-weight: 400;
+    }
+    #section-consult h5{
+      color: #001546;
+      font-weight: 200;
+    }
+    #section-consult .row{
+      height:50vh;
+      }
+      #section-consult.col-2{
+        margin-top:auto;
+        margin-bottom:auto;
+        }
+
+#section-twitter{
+    width:100%;
+    background-color: #e6e6e6;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#section-twitter h2{
+    color: #3d3d3d;
+    font-weight: 200;
+ }
+
+#card-section {
+
+      width: 100%;
+      background-color: #fefefe;;
+    }
+
+a.btn-green:hover{
+  color:#609E09;
+}
+a.btn-brown:hover{
+  color:#6C562F;
+}
+a.btn-soln:hover{
+  color: #CAE1E5;
+  background-color: #00C2E6;
+}
+
+.btn-soln{
+  width: 200px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #ffffff;
+
+}
+
+/* Slides */
+.Slides {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  /*background: linear-gradient(rgba(0,46,155,0.8),rgba(0,0,0,0.8)), url("../images/banner.jpg");*/
+  background-color: #2A4F89;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.2);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #fcfcfc;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #c1c1c1;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.slide-row{
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.slide-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.slide-column-1{
+float: left;
+padding-top: 3%;
+  width: 30%;
+}
+.slide-column-2{
+  float: left;
+  width: 70%;
+}
