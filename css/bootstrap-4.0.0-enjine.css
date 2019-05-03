@@ -171,6 +171,37 @@ header.nj {
   font-weight: 600;
 }
 
+tr.vdark{
+  background-color: #CFE0EB;
+
+}
+tr.sdark{
+  background-color: #E6EFF4;
+}
+td.proposer {
+  font-weight: 600;
+  line-height: 2rem;
+  text-align:center;
+}
+td.proposer a{
+color: #1F689D;
+border-bottom: 2px solid #609e09;
+}
+td.proposer a:hover{
+  color: #1F689D;
+  font-size: 1.05rem;
+  border-bottom: 4px solid #609e09;
+  text-decoration: none;
+  }
+  td p{
+   line-height: 2rem;
+    }
+
+.table ub{
+  border-bottom: 2px solid #1F689D;
+}
+
+
 @media all and (-ms-high-contrast:none)
 {
 #browser-notice{ /* IE10 */
@@ -411,6 +442,30 @@ margin-top: 15px;
 .overview-section{
   margin-top: 5%;
 }
+body h3{
+  text-align:center;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  font-weight:600;
+  line-height: 2.5rem;
+}
+body ug{
+  border-bottom: 4px solid #609e09;
+}
+.table-section{
+  margin-top: 2%;
+  width:100%;
+}
+.table-section h3{
+  text-align:center;
+margin-bottom: 2%;
+font-weight:600;
+line-height: 2.5rem;
+}
+.table-section ug{
+  border-bottom: 4px solid #609e09;
+}
+
 .summary-section{
   margin-top: 5%;
 }
@@ -2451,16 +2506,20 @@ pre code {
 .table td {
   padding: 0.75rem;
   vertical-align: top;
-  border-top: 1px solid #dee2e6;
+  width: 50%;
+}
+
+.table p{
+  margin-left: 20px;
 }
 
 .table thead th {
   vertical-align: bottom;
-  border-bottom: 2px solid #dee2e6;
+ 
 }
 
-.table tbody + tbody {
-  border-top: 2px solid #dee2e6;
+.table tbody td{
+padding-right: 20px;
 }
 
 .table .table {
