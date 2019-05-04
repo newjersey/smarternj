@@ -18,3 +18,5 @@ Visitors agree to grant a non-exclusive, irrevocable, royalty-free license to th
 SmarterNJ terms are available [here](https://smarter.nj.gov/tos.html).
 
 The open source platform that hosts the Enjine challenge is [Your Priorities](https://citizens.is/idea-generation-policy-crowd-sourcing/), an eDemocracy web application designed by the non-profit Citizens Foundation to help groups speak with one voice.
+
+Browser testing is supported by [<img alt="BrowserStack" src="https://github.com/newjersey/smarternj/blob/master/gh/browserstack.svg" width="135">](https://www.browserstack.com/)
