@@ -100,11 +100,15 @@ body {
   justify-content: center;
   margin-bottom:2rem;
 }
-.participate-button{
+a.participate-button{
   width: 20%;
   margin-top: -20px;
   color: var(--dark-blue);
   padding: 1rem 0 1rem 0;
+  background-color: var(--yellow);
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
 }
 button.participate-button{
   background-color: var(--yellow);
