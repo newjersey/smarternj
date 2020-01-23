@@ -460,6 +460,7 @@ a.participate-button{
     text-decoration: none;  
     width:80%;
   }
+
 .survey-title{
     text-align: center;
 }
@@ -468,8 +469,11 @@ a.participate-button{
     padding: 1rem 0rem 1rem 0rem;
     margin:2rem 0 2rem 0;
     text-align: center;
-    color: var(--white-50);
+    color: var(--yellow);
     font-size: 1.2rem;
+  }
+  .section.heading h2{
+      margin:0;
   }
 .aarp .logo{
     width: 80%;

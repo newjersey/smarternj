@@ -63,36 +63,39 @@
 
   <div id="survey-section" class="text-box-white">
     <h2>YOUR VOICE MATTERS. WE WANT TO HEAR FROM YOU!</h2>
-    <p>The New Jersey Future of Work Task Force wants to know what YOU think are the most important and pressing challenges. </p><br>
-    <p>Before DATE X, choose a topic.</p>
+    <p>The New Jersey Future of Work Task Force wants to know what YOU think are the most important and pressing challenges. Participate by DATE X to have your voice heard </p><br>
+    <p>To get started, choose a topic.</p>
     <br><br>
     <div class="topic-buttons">
     <div class="participate">
-      <a class="participate-button" onclick="change1()" style="margin-top:0">Skills and Lifelong Learning</a>
+      <a class="participate-button" id="btn1" href="#topic" onclick="change1()" style="margin-top:0">Skills and Lifelong Learning</a>
     </div>
     <div class="participate">
-      <a class="participate-button" onclick="change2()" style="margin-top:0">Worker Rights and Benefits</a>
+      <a class="participate-button" id="btn2" href="#topic" onclick="change2()" style="margin-top:0">Worker Rights and Benefits</a>
     </div>
     <div class="participate">
-      <a class="participate-button" onclick="change3()" style="margin-top:0">Worker Health and Safety</a>
+      <a class="participate-button" id="btn3" href="#topic" onclick="change3()" style="margin-top:0">Worker Health and Safety</a>
     </div>
     </div>
-    <br><br>
-    <p>Then tell us which of the two answer choices is your greater concern. </p>
-    <br>
-    <p>Respond to as many (or as few) two-option questions as you like…or add your own option! The more you tell us, the better we can understand the challenges we face relating to the future of  work. 
-    </p>
+  
   </div>
 
   <div class="section heading">
-    <h2 id="topic">Worker Rights and Benefits</h2>
+    <h2 id="topic">Skills and Lifelong Learning</h2>
   </div>
+  <div id="survey-section" style="padding-top:1rem;padding-bottom:2rem;" class="text-box-white">
+    <p>Please tell us which of the two answer choices is your greater concern. </p>
+    <br>
+    <p>Respond to as many (or as few) two-option questions as you like…or add your own option! The more you tell us, the better we can understand the challenges we face relating to the future of work. You can also scoll back up to pick a different topic. 
+    </p>
+    </div>
+
   <div style="display:none" class="aoi-embed">
-    <iframe class="aoi" src='https://aoi.crowd.law/health-data-test' style="position: relative;top: -50px" width="900"
+    <iframe class="aoi" src='https://aoi.crowd.law/fow-learning-test' style="position: relative;top: -50px" width="900"
       height="700" scrolling=yes></iframe>
   </div>
   <div class="aoi-embed">
-    <iframe class="aoi" src='https://aoi.crowd.law/health-data-aarp' style="position: relative;top: -50px" width="900"
+    <iframe class="aoi" id="ifrm" src='https://aoi.crowd.law/fow-learning-test' style="position: relative;top: -50px" width="900"
       height="700" scrolling=yes></iframe>
   </div>
 </body>
@@ -108,13 +111,53 @@
   function change1()
   {
       document.getElementById("topic").textContent="Skills and Lifelong Learning";
+      document.getElementById('ifrm').src="https://aoi.crowd.law/fow-learning-test";
+      document.getElementById('btn1').style= "border: 5px solid var(--dark-blue)";
+      document.getElementById('btn2').style= "border: 0px solid var(--dark-blue)";
+      document.getElementById('btn3').style= "border: 0px solid var(--dark-blue)";
+      
   }
   function change2()
   {
       document.getElementById("topic").textContent="Worker Rights and Benefits";
+      document.getElementById('ifrm').src="http://aoi.crowd.law/fow-rights-test";
+      document.getElementById('btn2').style= "border: 5px solid var(--dark-blue)";
+      document.getElementById('btn1').style= "border: 0px solid var(--dark-blue)";
+      document.getElementById('btn3').style= "border: 0px solid var(--dark-blue)";
   }
   function change3()
   {
       document.getElementById("topic").textContent="Worker Health and Safety";
+      document.getElementById('ifrm').src="https://aoi.crowd.law/fow-safety-test";
+      document.getElementById('btn3').style= "border: 5px solid var(--dark-blue)";
+      document.getElementById('btn2').style= "border: 0px solid var(--dark-blue)";
+      document.getElementById('btn1').style= "border: 0px solid var(--dark-blue)";
   }
   </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top - 20
+          }, 800, function(){
+       
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>

@@ -113,7 +113,7 @@ a.participate-button{
   padding: 1rem 0 1rem 0;
   background-color: var(--light-blue-008);
   text-align: center;
-  cursor: pointer;
+
   text-decoration: none;  
   width:80%;
 }
