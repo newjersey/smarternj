@@ -79,6 +79,7 @@ body {
 
 .hero h3{
   margin-top: 0;
+  font-size: 2rem;
   margin-bottom:0rem;
   color: var(--dark-blue-50);
 }
