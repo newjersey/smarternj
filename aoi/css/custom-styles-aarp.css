@@ -1,21 +1,13 @@
 :root {
-    --theme-purple: #523080;
-    --theme-pink: #6DBEC4;
-    --theme-green: #0cffe1;
-    --theme-yellow: #ffd489;
-    --ideas-color: #F2F2F2;
-    --opinions-color: #7DE2E1;
-    --expertise-color: #495056;
-    --actions-color: #E16A5F;
-    --evidence-color: #FED136;
-    --progress-color: lighten(#523080, 10);
-    --progress-inactive: #CCC;
-    --highlight-color: lighten(#6DBEC4, 25);
-    --dark-blue: rgba(109,190,196,0.2);
-    --light-blue:rgba(109,190,196,0.1);
-    --highlight-blue: #c6e8e9;
-    --highlight-blue-light: #c6e8e9e5;
-    --light-purple: #53308010;
+    --dark-blue: rgba(10, 62, 95, 100);
+    --dark-blue-50: rgba(10, 62, 95, 0.5);
+    --dark-blue-20: rgba(10, 62, 95, 0.2);
+    --light-blue: rgba(18, 104, 157, 100);
+    --light-green: #609e09;
+    --yellow: #fffb00;
+    --light-blue-008: rgba(18, 104, 157, 0.08);
+    --dull-blue:  rgba(139,163,179,1);
+    --white: #ffffff;
   }
 
   body{
@@ -319,7 +311,7 @@ img.desktop{
 .intro-text h2{
     font-size: 28pt;
     text-align: right;
-    color: rgb(68, 13, 13);
+    color: var(--dark-blue);
 }
 .intro-text p{
     font-size: 16pt;
@@ -336,16 +328,16 @@ img.desktop{
 .text-box p{
     font-size: 12pt;
     font-weight: 300;
-    color: rgb(68, 13, 13);
+    color: var(--dark-blue);
     margin-top:0.2em;
     margin-bottom:0.2em;
 }
 .text-box h2{
-    color: rgb(68, 13, 13);
+    color: var(--dark-blue);
     margin-bottom:0.4em;
 }
 .text-box a{
-    color: rgb(68, 13, 13);
+    color: var(--dark-blue);
 }
 .text-box a:hover{
     color: rgb(212, 104, 104);
@@ -357,12 +349,12 @@ img.desktop{
 .text-box-white p{
     font-size: 14pt;
     font-weight: 300;
-    color: rgb(68, 13, 13);
+    color: var(--dark-blue);
     margin-top:0.2em;
     margin-bottom:0.2em;
 }
 .text-box-white h2{
-    color: rgb(68, 13, 13);
+    color: var(--dark-blue);
     margin-bottom:0.4em;
 }
 
