@@ -65,11 +65,27 @@
     <h2>YOUR VOICE MATTERS. WE WANT TO HEAR FROM YOU!</h2>
     <p>The New Jersey Future of Work Task Force wants to know what YOU think are the most important and pressing challenges. </p><br>
     <p>Before DATE X, choose a topic.</p>
-    <br>
+    <br><br>
+    <div class="topic-buttons">
+    <div class="participate">
+      <a class="participate-button" onclick="change1()" style="margin-top:0">Skills and Lifelong Learning</a>
+    </div>
+    <div class="participate">
+      <a class="participate-button" onclick="change2()" style="margin-top:0">Worker Rights and Benefits</a>
+    </div>
+    <div class="participate">
+      <a class="participate-button" onclick="change3()" style="margin-top:0">Worker Health and Safety</a>
+    </div>
+    </div>
+    <br><br>
     <p>Then tell us which of the two answer choices is your greater concern. </p>
     <br>
     <p>Respond to as many (or as few) two-option questions as you like…or add your own option! The more you tell us, the better we can understand the challenges we face relating to the future of  work. 
     </p>
+  </div>
+
+  <div class="section heading">
+    <h2 id="topic">Worker Rights and Benefits</h2>
   </div>
   <div style="display:none" class="aoi-embed">
     <iframe class="aoi" src='https://aoi.crowd.law/health-data-test' style="position: relative;top: -50px" width="900"
@@ -88,3 +104,17 @@
 </footer>
 
 </html>
+<script type='text/javascript'>
+  function change1()
+  {
+      document.getElementById("topic").textContent="Skills and Lifelong Learning";
+  }
+  function change2()
+  {
+      document.getElementById("topic").textContent="Worker Rights and Benefits";
+  }
+  function change3()
+  {
+      document.getElementById("topic").textContent="Worker Health and Safety";
+  }
+  </script>

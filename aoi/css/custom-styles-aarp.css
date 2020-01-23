@@ -9,6 +9,7 @@
     --light-blue-008: rgba(18, 104, 157, 0.08);
     --dull-blue:  rgba(139,163,179,1);
     --white: #ffffff;
+    --white-50: rgba(255, 255, 255, 0.5);
   }
 
   body{
@@ -353,7 +354,7 @@ img.desktop{
     color: rgb(212, 104, 104);
 }
 .text-box-white{
-    padding:2em 12em 4em 12em;
+    padding:2em 12em 0em 12em;
     background-color:#ffffff;
 }
 .text-box-white p{
@@ -435,10 +436,41 @@ img.desktop{
     display:flex;
     flex-direction: column;
 }
-.aarp{
-background-color:rgb(138, 0, 0);
-}
 
+
+.topic-buttons{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    flex-wrap: wrap;
+  
+}
+.participate{
+    display:flex;
+    flex: 1 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+a.participate-button{
+    color: var(--dark-blue);
+    padding: 1rem 0 1rem 0;
+    background-color: var(--yellow);
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;  
+    width:80%;
+  }
+.survey-title{
+    text-align: center;
+}
+.section.heading{
+    background-color: var(--dark-blue);
+    padding: 1rem 0rem 1rem 0rem;
+    margin:2rem 0 2rem 0;
+    text-align: center;
+    color: var(--white-50);
+    font-size: 1.2rem;
+  }
 .aarp .logo{
     width: 80%;
 }

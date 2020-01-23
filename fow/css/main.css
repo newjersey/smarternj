@@ -95,24 +95,40 @@ body {
   font-weight: 300;
   font-size: 1rem;
 }
+.topic-buttons{
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  flex-wrap: wrap;
+
+}
 .participate{
   display:flex;
+  flex: 1 0 auto;
+  align-items: center;
   justify-content: center;
-  margin-bottom:2rem;
 }
 a.participate-button{
-  width: 20%;
+  color: var(--dark-blue);
+  padding: 1rem 0 1rem 0;
+  background-color: var(--light-blue-008);
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;  
+  width:80%;
+}
+a.participate-button-main{
   margin-top: -20px;
   color: var(--dark-blue);
   padding: 1rem 0 1rem 0;
   background-color: var(--yellow);
   text-align: center;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none;  
+  width:20%;
 }
-button.participate-button{
-  background-color: var(--yellow);
-}
+
+
 .page-items-list{
   display:flex;
 align-items: center;
