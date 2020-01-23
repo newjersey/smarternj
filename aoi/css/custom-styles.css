@@ -1,0 +1,251 @@
+:root {
+    --theme-purple: #523080;
+    --theme-pink: #6DBEC4;
+    --theme-green: #0cffe1;
+    --theme-yellow: #ffd489;
+    --ideas-color: #F2F2F2;
+    --opinions-color: #7DE2E1;
+    --expertise-color: #495056;
+    --actions-color: #E16A5F;
+    --evidence-color: #FED136;
+    --progress-color: lighten(#523080, 10);
+    --progress-inactive: #CCC;
+    --highlight-color: lighten(#6DBEC4, 25);
+    --dark-blue: rgba(109,190,196,0.2);
+    --light-blue:rgba(109,190,196,0.1);
+    --highlight-blue: #c6e8e9;
+    --highlight-blue-light: #c6e8e9e5;
+    --light-purple: #53308010;
+  }
+
+  body{
+    font-family: proxima-nova,sans-serif;
+      margin:0px;
+  }
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: var(--theme-purple);
+  }
+
+header img{
+    padding: 10px 0 10px 0;
+    height: 35px;
+}
+
+.hero{
+      display:flex;
+      flex-direction: column;
+      height: 100%;
+      background-color: var(--theme-purple);
+      align-items: center;
+      padding: 40px;
+  }
+
+.hero h1{
+      font-size: 40px;
+      font-weight: 100;
+      color: #ffffff;
+      opacity:0.8;
+      margin-top: 10px;
+  }
+.hero p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 10px;
+    line-height: 1.62;
+    text-align: justify;
+}
+.description{
+    flex: 1;
+    padding: 0 12rem 0 12rem;
+}
+.description a{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.logo{
+    flex: 1; 
+    width: 400px;
+    text-align: center;
+    padding-top:40px;
+}
+
+.crowdlaw-graphic{
+    flex: 1;
+    width: 200px;
+    padding: 20px 0 40px 0;
+}
+.separator{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+.separator h1{
+    color: #000000;
+    font-weight:200;
+    margin:0;
+}
+.row{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+}
+.consultation{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000000;
+}
+.consultation:hover {
+    background-color: var(--highlight-blue);
+    cursor: pointer;
+}
+.light{
+background-color: var(--light-blue);
+}
+
+.dark{
+    background-color: var(--dark-blue);
+}
+
+.consultation h1{
+    font-size: 28px;
+    font-weight: 100;
+    text-align:center;
+    margin-top:0;
+}
+.consultation p{
+    font-size: 16px;
+    font-weight: 300;
+    text-align:center;
+}
+
+.consultation h5{
+    font-size: 20px;
+    font-weight: 300;
+    text-align:center;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.1);
+  
+}
+
+p.dates{
+    padding:0px 50px 0px 50px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    background-color: var(--actions-color);
+    color: rgb(68, 32, 28);
+    flex:1;
+}
+.title{
+    flex:1;
+}
+.con-desc{
+    padding:0px 50px 0px 50px;
+    flex:1;
+}
+.button{
+    padding:0px 50px 0px 50px;
+    flex:1;
+}
+.aoi-ss{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aoi-ss h3{
+    margin:0;
+    padding: 40px;
+
+}
+
+
+footer{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(0,0,0);
+    color: rgba(255,255,255,0.5);
+    font-size: 0.8rem;
+}
+footer img{
+    padding: 0 20px 0 20px;
+}
+footer a{
+    color: rgba(255,255,255,0.5);
+}
+footer p{
+    margin:0;
+}
+
+img.mobile{
+    display:none;
+    width: 80%;
+}
+img.desktop{
+    display:block;
+    width: 60%;
+}
+@media screen and (min-width: 620px) and (max-width: 960px){
+    .row{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+    }
+    .description{
+        flex: 1;
+        padding: 0 8rem 0 8rem;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 620px){
+    .row{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+    }
+    .description{
+        flex: 1;
+        padding: 0 2rem 0 2rem;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 450px){
+    .row{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+    }
+    .description{
+        flex: 1;
+        padding: 0 0rem 0 0rem;
+    }
+    .logo{
+        flex: 1; 
+        width: 300px;
+        text-align: center;
+        padding-top:40px;
+    }
+    .separator{
+        padding: 50px 10px 50px 10px;
+    }
+    img.mobile{
+        display:block;
+    }
+    img.desktop{
+        display:none;
+    }
+}
+
