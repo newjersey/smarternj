@@ -4,6 +4,7 @@
   --dark-blue-20: rgba(10, 62, 95, 0.2);
   --light-blue: rgba(18, 104, 157, 100);
   --light-green: #609e09;
+  --yellow: #fffb00;
   --light-blue-008: rgba(18, 104, 157, 0.08);
   --dull-blue:  rgba(139,163,179,1);
   --white: #ffffff;
@@ -58,8 +59,12 @@ body {
   margin: 0rem 0rem 0rem 0rem;
   text-align:center;
   padding: 0rem 8rem 0 8rem;
-  background-color: var(--light-blue-008);
-  height: 30vh;
+  /* background-color: var(--light-blue-008); */
+  background-image: linear-gradient(rgba(10, 62, 95, 0.6),rgba(10, 62, 95, 0.4)), url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0em;
+  height: 55vh;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -70,18 +75,20 @@ body {
   text-align:left;
 }
 .hero h1{
-  font-size: 3rem;
+  font-size: 5rem;
   padding-top: 0rem;
   margin-bottom: 0;
-  margin-top: 0;
-  color: var(--dark-blue);
+  margin-top: -40px;
+  /* color: var(--dark-blue); */
+  color:var(--white);
 }
 
 .hero h3{
   margin-top: 0;
-  font-size: 2rem;
+  font-size: 5rem;
   margin-bottom:0rem;
-  color: var(--dark-blue-50);
+  /* color: var(--dark-blue-50); */
+  color:var(--yellow);
 }
 .hero p{
   color: var(--dark-blue);
@@ -96,7 +103,11 @@ body {
 .participate-button{
   width: 20%;
   margin-top: -20px;
-  color: var(--white);
+  color: var(--dark-blue);
+  padding: 1rem 0 1rem 0;
+}
+button.participate-button{
+  background-color: var(--yellow);
 }
 .page-items-list{
   display:flex;

@@ -12,6 +12,13 @@
   .hero.home h1{
     padding: 0rem 0rem 0 0rem;
   }
+  .hero h1{
+    font-size: 3.5rem;
+    margin-top:-25px;
+  }
+  .hero h3{
+    font-size: 4rem;
+  }
   .page-items-list{
     display:flex;
  flex-direction: column;
@@ -128,6 +135,9 @@ display:none;
 @media screen and (min-width: 579px) and (max-width: 830px){
   .hero{
     padding: 0rem 0rem 0 0rem;
+  }
+  .hero h1{
+    font-size: 4.5rem;
   }
   .box-row{
     display:flex;
