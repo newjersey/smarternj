@@ -6,11 +6,11 @@
     padding: 0rem 1rem 0 1rem;
   }
   .hero h3{
-    padding: 3rem 0rem 3rem 0rem;
+    padding: 1rem 0rem 0rem 0rem;
     margin: 0rem 0rem 0rem 0rem;
   }
   .hero.home h1{
-    padding: 2rem 0rem 0 0rem;
+    padding: 0rem 0rem 0 0rem;
   }
   .page-items-list{
     display:flex;
@@ -19,6 +19,9 @@
   .page-items-list li{
     width: 300px;
     margin-bottom: 1rem;
+  }
+  .participate-button{
+    width: 80%;
   }
   .icons{
     display:flex;
@@ -68,7 +71,7 @@ display:none;
   width: 40px;
 }
 .section{
-  padding: 0rem 1rem 3rem 1rem;
+  padding: 0rem 1rem 0rem 1rem;
 }
 .custom-form{
   width: 100%;
@@ -180,7 +183,9 @@ display:none;
     padding: 0rem 1rem 0rem 1rem;
     background-color: var(--light-blue-008);
   }
-
+  .participate-button{
+    width: 60%;
+  }
 }
 @media screen and (min-width: 831px) and (max-width: 1350px){
   .hero{
@@ -196,5 +201,8 @@ display:none;
   }
   #quick-menu{
     width: 80%;
+  }
+  .participate-button{
+    width: 40%;
   }
 }
