@@ -30,6 +30,13 @@
   .participate-button{
     width: 80%;
   }
+  a.participate-button-main{
+    width:80%;
+  }
+  .topic-buttons{
+    display:flex;
+    flex-direction: column;
+  }
   .icons{
     display:flex;
     flex-direction: column;
@@ -196,6 +203,13 @@ display:none;
   .participate-button{
     width: 60%;
   }
+  a.participate-button-main{
+    width:80%;
+  }
+  .topic-buttons{
+    display:flex;
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 831px) and (max-width: 1350px){
   .hero{
@@ -215,4 +229,5 @@ display:none;
   .participate-button{
     width: 40%;
   }
+  
 }

@@ -560,6 +560,11 @@ a.participate-button{
     .aoi{
         height: 100%;
     }
+    .topic-buttons{
+        display:flex;
+        flex-direction: column;
+
+    }
     .intro-text{
         padding: 1em 1em 1em 1em;
         flex-direction: column;
@@ -623,6 +628,11 @@ a.participate-button{
         width: 300px;
         text-align: center;
         padding-top:40px;
+    }
+    .topic-buttons{
+        display:flex;
+        flex-direction: column;
+
     }
     .separator{
         padding: 50px 10px 50px 10px;
