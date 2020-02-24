@@ -1086,7 +1086,8 @@ a.btn-green:hover{
   color:#609E09;
 }
 a.btn-brown:hover{
-  color:#6C562F;
+  color:rgb(255, 235, 200);
+  background-color: #ED552C;
 }
 a.btn-soln:hover{
   color: #CAE1E5;
