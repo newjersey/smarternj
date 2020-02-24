@@ -356,7 +356,7 @@ img.desktop{
     display: flex;
     align-items: center;
     justify-content: center;
-    height:1400px;
+    height:900px;
 
 }
 .aoi{
@@ -548,7 +548,7 @@ a.participate-button{
         padding: 1em 3em 1em 3em;
     }
     .aoi-embed{
-        height:1400px;
+        height:900px;
     }
     .aoi{
         height: 100%;
@@ -600,7 +600,7 @@ a.participate-button{
         padding: 1em 1em 1em 1em;
     }
     .aoi-embed{
-        height:1400px;
+        height:900px;
     }
     .aoi{
         height: 100%;
@@ -693,7 +693,7 @@ a.participate-button{
         padding: 1em 1em 1em 1em;
     }
     .aoi-embed{
-        height:1400px;
+        height:900px;
     }
     .aoi{
         height: 100%;
