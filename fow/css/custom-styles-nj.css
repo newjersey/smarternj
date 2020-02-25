@@ -54,24 +54,28 @@ header img{
   .translate-es,.translate-en{
     position: absolute;
   padding-right: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
     right:0;
 }
 a.translate-es, a.translate-en{
     text-decoration: none;
-    color: var(--yellow);
+    color: var(--dark-blue);
     font-weight: 600;
     font-size: 0.9rem;
 }
 a.translate-es::before{
-    content: "EN ESPANYŌL";
+    padding: 1rem;
+    background-color: var(--yellow);
+    content: "EN ESPANŌL";
 }
 a.translate-en::before{
+    padding: 1rem;
+    background-color: var(--yellow);
     content: "IN ENGLISH";
 }
 a.translate-es:hover ,a.translate-en:hover{
     cursor: pointer;
-    color: var(--white);
+    color: var(--dark-blue-50);
 }
   .hero h1{
     display: flex;
@@ -334,6 +338,15 @@ margin-top:0;
   .footer-item{
     padding:10px;
   }
+  .translate-es,.translate-en{
+    position: absolute;
+    margin-top: 40px;
+    top:0;
+    right:auto;
+    left: auto;
+    padding-right:0;
+
+}
 }
 
 img.mobile{
