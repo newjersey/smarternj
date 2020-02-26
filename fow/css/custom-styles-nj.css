@@ -66,7 +66,7 @@ a.translate-es, a.translate-en{
 a.translate-es::before{
     padding: 1rem;
     background-color: var(--yellow);
-    content: "EN ESPANŌL";
+    content: "EN ESPAÑOL";
 }
 a.translate-en::before{
     padding: 1rem;
